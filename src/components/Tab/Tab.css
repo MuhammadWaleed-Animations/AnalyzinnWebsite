@@ -1,0 +1,68 @@
+/* Tab.css */
+.tab-container {
+    text-align: center;
+}
+
+.tabs-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+/* Tab.css */
+.tab-content-wrapper {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    gap: 20px; /* Space between image and text */
+  }
+  
+  .tab-content {
+    font-size: 16px;
+    color: #333;
+    padding: 16px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    max-width: 100%; /* Adjust based on your layout */
+  }
+
+  .tab-content-wrapper img {
+    width: 600px; /* Set consistent width */
+    height: 300px; /* Set consistent height */
+    object-fit: cover; /* Ensure image covers area without distortion */
+    flex-shrink: 0; /* Prevent image from shrinking */
+}
+
+  
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px;
+}
+/* Button.css */
+.gradient-button {
+    background: linear-gradient(45deg, #8e2de2, #4a00e0); /* Purple gradient background */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    padding: 8px 16px; /* Smaller padding */
+    font-size: 14px; /* Smaller font size */
+    font-weight: bold; /* Font weight */
+    border-radius: 4px; /* Slightly rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background 0.3s ease, transform 0.3s ease; /* Smooth transition for background and transformation */
+    outline: none; /* Remove default focus outline */
+    text-transform: uppercase; /* Uppercase text */
+}
+
+.gradient-button:hover {
+    background: linear-gradient(45deg, #4a00e0, #8e2de2); /* Reverse gradient on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+.gradient-button:focus {
+    box-shadow: 0 0 0 3px rgba(138, 43, 226, 0.5); /* Focus outline with shadow */
+}
+
+.gradient-button:active {
+    background: linear-gradient(45deg, #4a00e0, #8e2de2); /* Same gradient on active state */
+    transform: scale(0.95); /* Slightly shrink the button on click */
+}
