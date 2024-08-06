@@ -1,18 +1,47 @@
 import React from "react"
 import Tab from "./components/Tab/Tab"
 import Footer from "./components/footer/footer"
+import { Row, Col } from 'antd';
+import TextSection from './components/TextSection';
+import StatisticsSection from './components/StatisticsSection';
+import TestimonialSlider from './components/TestimonialSlider';
+import WhatSetsUsApart from './WhatSetsUsApart';
+import ContactButton from './ContactButton';
 import './App.css';
 const array = [{key:'0',label:"Business Analytics",children:"Truly data-driven organizations gain a competitive advantage over their competitors who view data using traditional methods. Enable your organization to view data differently and unlock the true potential of your business. Use data to empower decision making in all business functions.",link:"link0",img:"img0.jpeg"},
 {key:'1',label:"Digital Marketing & Analytics",children:"Are your digital marketing goals driven by data, or just a shot in the dark? Either way, ANALYZINN can help to gain competitive advantage by providing you the right knowledge, at the right time",link:"link1",img:"img1.jpg"},
 {key:'2',label:"Automation & Integration",children:"Analyzinn Solutions offer end-to-end Automation and Integration Services to help you embrace digital transformation and build a cost-efficient system. We are experienced in leveraging APIs and the Integration of standard applications. We help you reduce manual efforts.",link:"link2",img:"img2.jpg"}]
+
+
+
 function App() {
   return (
     <div>
       <Tab arr={array}/>
       
       <Footer />
+
+    <div style={{ minHeight: '100vh', padding: '40px', background: '#f0f2f5' }}>
+      <Row gutter={[16, 16]}>
+        <Col span={24}>
+          <TextSection />
+        </Col>
+        <Col span={24}>
+          <StatisticsSection />
+        </Col>
+        <Col span={24}>
+          <TestimonialSlider testimonials={testimonials} />
+        </Col>
+      </Row>
+      <div style={{ minHeight: '100vh', padding: '40px', background: '#f0f2f5' }}>
+      <WhatSetsUsApart />
+      <ContactButton />
+    </div>
+{/* >>>>>>> 038b2d391017860c9a7ac1eab6465ae7acc1f671 */}
+    </div>
     </div>
   );
-}
+};
+
 
 export default App;
