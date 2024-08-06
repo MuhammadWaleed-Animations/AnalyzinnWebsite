@@ -1,10 +1,11 @@
 import React from 'react';
 import { Carousel, Typography, Row, Col } from 'antd';
 import './TestimonialSlider.css'; 
+import testimonials from '../data/testimonials';
 
 const { Title, Text } = Typography;
 
-const TestimonialSlider = ({ testimonials }) => {
+const TestimonialSlider = () => {
   return (
     <div style={{ padding: '40px', background: '#fff' }}>
       <Title level={2}>Testimonials</Title>
