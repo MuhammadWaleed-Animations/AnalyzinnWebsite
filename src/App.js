@@ -3,6 +3,8 @@ import { Row, Col } from 'antd';
 import TextSection from './components/TextSection';
 import StatisticsSection from './components/StatisticsSection';
 import TestimonialSlider from './components/TestimonialSlider';
+import WhatSetsUsApart from './WhatSetsUsApart';
+import ContactButton from './ContactButton';
 
 const testimonials = [
   {
@@ -40,8 +42,13 @@ const App = () => {
           <TestimonialSlider testimonials={testimonials} />
         </Col>
       </Row>
+      <div style={{ minHeight: '100vh', padding: '40px', background: '#f0f2f5' }}>
+      <WhatSetsUsApart />
+      <ContactButton />
+    </div>
     </div>
   );
 };
+
 
 export default App;
