@@ -5,6 +5,7 @@ import StatisticsSection from './components/StatisticsSection';
 import TestimonialSlider from './components/TestimonialSlider';
 import WhatSetsUsApart from './WhatSetsUsApart';
 import ContactButton from './ContactButton';
+import Home from './components/Home';
 
 const testimonials = [
   {
@@ -30,6 +31,8 @@ const testimonials = [
 
 const App = () => {
   return (
+    <>
+    <Home />
     <div style={{ minHeight: '100vh', padding: '40px', background: '#f0f2f5' }}>
       <Row gutter={[16, 16]}>
         <Col span={24}>
@@ -47,6 +50,7 @@ const App = () => {
       <ContactButton />
     </div>
     </div>
+    </>
   );
 };
 
