@@ -3,44 +3,45 @@ import React, { useState } from 'react';
 import { Tabs } from 'antd';
 import './Tab.css'; // Import your custom CSS file
 
-
 const { TabPane } = Tabs;
 
 const Tab = (props) => {
   const [currLink, setLink] = useState(props.arr[0].link);
 
   const onChange = (key) => {
-    console.log("onChange: ",key , props.arr[Number(key)].link)
+    console.log("onChange: ", key, props.arr[Number(key)].link);
     setLink(props.arr[Number(key)].link);
   };
+
   return (
     <div className="tab-container">
-      <h1 style={{textAlign:"center"}}>Our Services</h1>
-      <p style={{textAlign:"center"}}>Each Service, tailored for you. From this Click until the End!</p>
+      <h1 style={{ textAlign: "center" }}>Our Services</h1>
+      <p style={{ textAlign: "center" }}>Each Service, tailored for you. From this Click until the End!</p>
 
       <Tabs defaultActiveKey="0" onChange={onChange} centered>
         {props.arr.map((item, index) => (
           <TabPane tab={item.label} key={index}>
             {console.log(item.img)}
             <div className="tab-content-wrapper">
-            <img src={`/images/${item.img}`} alt={"img for key: " + item.key} style={{width:600,height:300}}/>
-            <div className="tab-content" >
-              {item.children}
+              <img src={`/images/${item.img}`} alt={"img for key: " + item.key} />
+              <div className="tab-content">
+                {item.children}
+                <div className="button-container">
+                  <a href={currLink}>
+                    <button className="gradient-button">Show More Info</button>
+                  </a>
+                </div>
               </div>
-              </div>
+            </div>
           </TabPane>
         ))}
       </Tabs>
-      <div className="button-container">
-      <a href={currLink}>
-        <button className="gradient-button">Show More Info</button>
-      </a>
-      </div>
     </div>
   );
 };
 
 export default Tab;
+
 
 //////////////////////////////////////////////////////////////////////
 
