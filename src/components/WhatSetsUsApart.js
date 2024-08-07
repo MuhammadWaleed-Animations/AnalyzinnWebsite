@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col, Typography } from 'antd';
 import { ClockCircleOutlined, MessageOutlined, TeamOutlined, RobotOutlined, LaptopOutlined, SafetyCertificateOutlined } from '@ant-design/icons';
-import './WhatSetsUsApart.css';
+import './css/WhatSetsUsApart.css';
 
 const { Title, Text } = Typography;
 
