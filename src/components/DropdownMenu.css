@@ -1,0 +1,29 @@
+.dropdown-button {
+  font-size: 24px;
+  padding: 0;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.dropdown-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+}
+
+.logo {
+  height: 200px;
+}
+
+.dropdown-button {
+  border: none;
+  background: transparent;
+  font-size: 24px;
+}
