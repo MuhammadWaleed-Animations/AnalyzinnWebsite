@@ -1,40 +1,61 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './pages/Home';
-import About from './pages/About';
-import Tab from "./components/Tab/Tab"
-import Footer from "./components/footer/footer"
-import WhatSetsUsApart from './WhatSetsUsApart';
-import ContactButton from './ContactButton';
-import Home from './components/Home';
+import React from "react";
+import Home from "./pages/Home";
+import Tab from "./components/Tab/Tab";
+import Footer from "./components/footer/footer";
+import WhatSetsUsApart from "./WhatSetsUsApart";
+import ContactButton from "./ContactButton";
+import HomeTop from "./components/HomeTop";
 // import './App.css';
-const array = [{key:'0',label:"Business Analytics",children:"Truly data-driven organizations gain a competitive advantage over their competitors who view data using traditional methods. Enable your organization to view data differently and unlock the true potential of your business. Use data to empower decision making in all business functions.",link:"link0",img:"img0.jpeg"},
-{key:'1',label:"Digital Marketing & Analytics",children:"Are your digital marketing goals driven by data, or just a shot in the dark? Either way, ANALYZINN can help to gain competitive advantage by providing you the right knowledge, at the right time",link:"link1",img:"img1.jpg"},
-{key:'2',label:"Automation & Integration",children:"Analyzinn Solutions offer end-to-end Automation and Integration Services to help you embrace digital transformation and build a cost-efficient system. We are experienced in leveraging APIs and the Integration of standard applications. We help you reduce manual efforts.",link:"link2",img:"img2.jpg"}]
-
+const array = [
+  {
+    key: "0",
+    label: "Business Analytics",
+    children:
+      "Truly data-driven organizations gain a competitive advantage over their competitors who view data using traditional methods. Enable your organization to view data differently and unlock the true potential of your business. Use data to empower decision making in all business functions.",
+    link: "link0",
+    img: "img0.jpeg",
+  },
+  {
+    key: "1",
+    label: "Digital Marketing & Analytics",
+    children:
+      "Are your digital marketing goals driven by data, or just a shot in the dark? Either way, ANALYZINN can help to gain competitive advantage by providing you the right knowledge, at the right time",
+    link: "link1",
+    img: "img1.jpg",
+  },
+  {
+    key: "2",
+    label: "Automation & Integration",
+    children:
+      "Analyzinn Solutions offer end-to-end Automation and Integration Services to help you embrace digital transformation and build a cost-efficient system. We are experienced in leveraging APIs and the Integration of standard applications. We help you reduce manual efforts.",
+    link: "link2",
+    img: "img2.jpg",
+  },
+];
 
 const App = () => {
   return (
-    <Router>
     <>
-    <Home />
+      <HomeTop />
 
-    <div>
-      <Tab arr={array}/>
+      <div>
+        <Tab arr={array} />
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/About" element={<About />} />
-      </Routes>
-      <div style={{ minHeight: '100vh', padding: '40px', background: '#f0f2f5' }}>
-      <WhatSetsUsApart />
-      <ContactButton />
-         </div>
-    <Footer/>
-    </div>
+        <Home />
+        <div
+          style={{
+            minHeight: "100vh",
+            padding: "40px",
+            background: "#f0f2f5",
+          }}
+        >
+          <WhatSetsUsApart />
+          <ContactButton />
+        </div>
+        <Footer />
+      </div>
     </>
-    </Router>
+  );
 };
-
 
 export default App;
