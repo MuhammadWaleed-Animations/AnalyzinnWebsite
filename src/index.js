@@ -1,14 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import 'antd/dist/reset.css'; // Import Ant Design styles by default
-import './index.css'; 
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom";
+import "antd/dist/reset.css"; // Import Ant Design styles by default
+import "./index.css";
+import { BrowserRouter } from "react-router-dom";
+import Routing from "./Router";
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Routing />
+    </BrowserRouter>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
-
 
