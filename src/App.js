@@ -2,8 +2,8 @@ import React from "react";
 import Home from "./pages/Home";
 import Tab from "./components/Tab/Tab";
 import Footer from "./components/footer/footer";
-import WhatSetsUsApart from "./WhatSetsUsApart";
-import ContactButton from "./ContactButton";
+import WhatSetsUsApart from "./components/WhatSetsUsApart";
+import ContactButton from "./components/ContactButton";
 import HomeTop from "./components/HomeTop";
 // import './App.css';
 const array = [
