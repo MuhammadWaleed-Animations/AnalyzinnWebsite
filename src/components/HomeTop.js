@@ -1,4 +1,4 @@
-import "./Home.css";
+import "./HomeTop.css";
 import { Button, Layout, Typography } from "antd";
 
 const { Content } = Layout;

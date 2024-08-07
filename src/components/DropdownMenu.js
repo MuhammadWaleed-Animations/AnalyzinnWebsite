@@ -27,7 +27,7 @@ const DropdownMenu = () => {
       </Menu.Item>
       <Menu.Item
         key="3"
-        onClick={() => navigate("/about")}
+        onClick={() => navigate("/About")}
         style={{ textAlign: "center" }}
       >
         About
