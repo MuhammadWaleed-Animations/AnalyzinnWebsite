@@ -1,7 +1,8 @@
 import { Routes, Route } from "react-router-dom";
 import App from "./App";
-import About from "./pages/About";
 import Topbar from "./components/Topbar";
+import Automation from "./pages/Automation";
+import About from "./pages/About";
 
 export default function Routing() {
   return (
@@ -9,8 +10,9 @@ export default function Routing() {
       <Topbar />
       <Routes>
         <Route index path="/" element={<App />} />
+        <Route path="/Automation" element={<Automation />} />
         {/* <Route path="/sevices" element={<Services />} /> */}
-        <Route path="/about" element={<About />} />
+        { <Route path="/about" element={<About />} /> }
         {/* <Route path="/contact" element={<Contact />} /> */}
       </Routes>
     </>
