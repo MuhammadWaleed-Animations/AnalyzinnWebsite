@@ -5,6 +5,7 @@ import "./index.css";
 import { BrowserRouter } from "react-router-dom";
 import Routing from "./Router";
 
+
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
@@ -13,3 +14,4 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById("root")
 );
+
