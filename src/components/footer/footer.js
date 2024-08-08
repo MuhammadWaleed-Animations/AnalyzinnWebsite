@@ -1,7 +1,7 @@
-import React from "react"
-import "./footer.css"
+import React from "react";
+import "./footer.css";
 import { Layout } from "antd";
-const {Footer } = Layout;
+const { Footer } = Layout;
 
 const footer = () => {
   return (
@@ -13,23 +13,39 @@ const footer = () => {
         <div className="footer-section">
           <h4>Services</h4>
           <ul>
-            <li><a href="#business-analytics">Business Analytics</a></li>
-            <li><a href="#digital-marketing">Digital Marketing</a></li>
-            <li><a href="#automation-integration">Automation & Integration</a></li>
+            <li>
+              <a href="/services#business-analytics">Business Analytics</a>
+            </li>
+            <li>
+              <a href="/services#digital-marketing">Digital Marketing</a>
+            </li>
+            <li>
+              <a href="/services#automation-integration">
+                Automation & Integration
+              </a>
+            </li>
           </ul>
         </div>
         <div className="footer-section">
           <h4>Company</h4>
           <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#careers">Careers</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li>
+              <a href="about">About</a>
+            </li>
+            <li>
+              <a href="careers">Careers</a>
+            </li>
+            <li>
+              <a href="contact">Contact</a>
+            </li>
           </ul>
         </div>
         <div className="footer-section">
           <h4>Address</h4>
           <p>13th Street, Lubbock, Texas, United States.</p>
-          <p><a href="mailto:admin@analyzinn.com">admin@analyzinn.com</a></p>
+          <p>
+            <a href="mailto:admin@analyzinn.com">admin@analyzinn.com</a>
+          </p>
         </div>
       </div>
       <div className="footer-bottom">
@@ -41,10 +57,9 @@ const footer = () => {
 
 export default footer;
 
-
 <div className="footer-section">
-          <h3>Guaranteed Satisfaction. Everytime!</h3>
-        </div>
+  <h3>Guaranteed Satisfaction. Everytime!</h3>
+</div>;
 
 // const footer =()=>{
 //     return <Footer
