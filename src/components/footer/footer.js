@@ -14,15 +14,13 @@ const footer = () => {
           <h4>Services</h4>
           <ul>
             <li>
-              <a href="/services#business-analytics">Business Analytics</a>
+              <a href="/Bussiness-analytics">Business Analytics</a>
             </li>
             <li>
-              <a href="/services#digital-marketing">Digital Marketing</a>
+              <a href="/DigitalMarketing">Digital Marketing</a>
             </li>
             <li>
-              <a href="/services#automation-integration">
-                Automation & Integration
-              </a>
+              <a href="/Automation">Automation & Integration</a>
             </li>
           </ul>
         </div>
@@ -33,7 +31,7 @@ const footer = () => {
               <a href="about">About</a>
             </li>
             <li>
-              <a href="careers">Careers</a>
+              <a href="https://www.linkedin.com/company/analyzinn/">Careers</a>
             </li>
             <li>
               <a href="contact">Contact</a>
