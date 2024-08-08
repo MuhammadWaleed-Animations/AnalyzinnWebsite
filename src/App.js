@@ -40,10 +40,6 @@ const App = () => {
     <>
       <HomeTop />
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 985738feed9165ebecf60e45b917fce6741ccc7f
       <div>
         <Tab arr={array} />
 
