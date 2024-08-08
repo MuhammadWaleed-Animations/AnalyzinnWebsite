@@ -11,7 +11,7 @@ export default function Routing() {
       <Routes>
         <Route index path="/" element={<App />} />
         <Route path="/Automation" element={<Automation />} />
-        {/* <Route path="/sevices" element={<Services />} /> */}
+        {/* <Route path="/srevices" element={<Services />} /> */}
         { <Route path="/about" element={<About />} /> }
         {/* <Route path="/contact" element={<Contact />} /> */}
       </Routes>

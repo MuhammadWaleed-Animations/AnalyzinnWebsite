@@ -8,7 +8,7 @@ const ContentSection = () => {
     <div style={{ padding: '20px', background: '#f0f2f5' }}>
       <Row gutter={[16, 16]} align="middle">
         <Col xs={24} md={12}>
-          <Title level={1} style={{ fontSize: '58px' }}>
+          <Title level={1} style={{ fontSize: '40px' }}>
             Consulting Firm Powered by Analytics
           </Title>
         </Col>
