@@ -14,7 +14,7 @@
 /* Tab content wrapper */
 .tab-content-wrapper {
     display: flex;
-    align-items:center; /* Center items vertically */
+    align-items: center; /* Center items vertically */
     gap: 20px; /* Space between image and text */
     background-color: #ffffff; /* Background color for content wrapper */
     border-radius: 8px; /* Rounded corners for content wrapper */
@@ -23,14 +23,17 @@
     margin: 20px 0; /* Margin around content wrapper */
 }
 
-/* Image styling */
-.tab-content-wrapper img {
-    width: 600px; /* Set consistent width */
-    height: 300px; /* Set consistent height */
-    object-fit:contain; /* Ensure image covers area without distortion */
-    flex-shrink: 0; /* Prevent image from shrinking */
-    border-radius: 8px; /* Rounded corners for image */
-    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 1); /* Box shadow for image */
+/* Icon and text wrapper */
+.icon-and-text {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Icon styling */
+.tab-icon {
+    font-size: 50px; /* Increase the size of the icon */
+    color: dodgerblue; /* Set the color to dodger blue */
 }
 
 /* Text content styling */
@@ -44,13 +47,6 @@
     max-width: 100%; /* Adjust based on your layout */
     line-height: 1.5; /* Improved readability */
 }
-
-
-.tab-label {
-    font-size: 15px;
-    font-weight: bold;
-  }
-
 
 /* Button container */
 .button-container {
@@ -88,4 +84,25 @@
 .gradient-button:active {
     background: linear-gradient(45deg, #000000, #333333); /* Same gradient on active state */
     transform: scale(0.95); /* Slightly shrink on click */
+}
+
+.services-title {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 250px;
+    padding-bottom: 50px;
+    font-size: 75px;
+    position: relative;
+}
+
+.cyan-dash {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background-color: cyan;
+    margin-bottom: 20px;
 }

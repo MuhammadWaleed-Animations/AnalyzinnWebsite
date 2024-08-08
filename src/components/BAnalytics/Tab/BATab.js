@@ -1,11 +1,11 @@
 // Tab.js
 import React, { useState } from 'react';
 import { Tabs } from 'antd';
-import './Tab.css'; // Import your custom CSS file
+import './BATab.css'; // Import your custom CSS file
 
 const { TabPane } = Tabs;
 
-const Tab = (props) => {
+const BATab = (props) => {
   const [currLink, setLink] = useState(props.arr[0].link);
 
   const onChange = (key) => {
@@ -33,12 +33,13 @@ const Tab = (props) => {
                     {item.children}
                   </div>
                 </div>
-                <div className="button-container">
+                
+              </div>
+              <div className="button-container">
                   <a href={currLink}>
                     <button className="gradient-button">Show More Info</button>
                   </a>
                 </div>
-              </div>
             </TabPane>
           );
         })}
@@ -47,4 +48,4 @@ const Tab = (props) => {
   );
 };
 
-export default Tab;
+export default BATab;
