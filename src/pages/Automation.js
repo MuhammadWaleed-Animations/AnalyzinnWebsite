@@ -4,7 +4,7 @@ import OurServices from "../components/OurServices";
 
 const AutomationPage = () => {
   return (
-    <div id="#automation-integration">
+    <div style={{ marginTop: "20px" }}>
       <AutomationIntegration />
       <OurServices />
     </div>

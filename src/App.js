@@ -38,7 +38,6 @@ const array = [
 const App = () => {
   return (
     <>
-      <Services/> {/* //Working here but not with router */}
       <HomeTop />
 
       <div>
@@ -48,7 +47,7 @@ const App = () => {
         <div
           style={{
             minHeight: "100vh",
-            padding: "40px",  
+            padding: "40px",
             background: "#f0f2f5",
           }}
         >
