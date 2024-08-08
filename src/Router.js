@@ -6,6 +6,7 @@ import Topbar from "./components/Topbar";
 import Footer from "./components/footer/footer";
 import Automation from "./pages/Automation";
 import BussinessAnalytics from "./pages/BussinessAnalytics";
+import MarketingTabs from "./components/DigitalMarketing";
 
 // >>>>>>> 00d5da72a3aa5188137e830104b522316a94434c
 
@@ -15,10 +16,12 @@ export default function Routing() {
       <Topbar />
       <Routes>
         <Route index path="/" element={<App />} />
-        <Route path="/services" element={<Services />}/>
-        <Route path="/about" element={<About />} />
+
+        <Route path="/services" element={<Services />} />
         <Route path="/Automation" element={<Automation />} />
-        <Route path="/BussinessAnalytics" element={<BussinessAnalytics />} />
+        <Route path="/DigitalMarketing" element={<MarketingTabs />} />
+        {/* <Route path="/Bussiness-analytics" element={<Component name />} /> */}
+        <Route path="/about" element={<About />} />
         {/* <Route path="/contact" element={<Contact />} /> */}
       </Routes>
       <Footer />

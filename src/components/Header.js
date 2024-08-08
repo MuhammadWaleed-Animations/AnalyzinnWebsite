@@ -46,24 +46,14 @@ export default function Navbar() {
           onClick={() => navigate("/services")}
         >
           <SubMenu icon={<BarChartOutlined />} title="Services">
-            <a href="#business-analytics">
-              <Menu.Item
-                key="2-1"
-                onClick={() => navigate("/BussinessAnalytics")}
-              >
-                Business Analytics
-              </Menu.Item>
+            <a href="/Bussiness-analytics">
+              <Menu.Item key="2-1">Business Analytics</Menu.Item>
             </a>
-            <a href="#digital-marketing">
+            <a href="/DigitalMarketing">
               <Menu.Item key="2-2">Digital Marketing & Analytics</Menu.Item>
             </a>
-            <a href="#digital-marketing">
-              <Menu.Item
-                key="2-3"
-                onClick={() => navigate("/services/automation")}
-              >
-                Automation & Integration
-              </Menu.Item>
+            <a href="/Automation">
+              <Menu.Item key="2-3">Automation & Integration</Menu.Item>
             </a>
           </SubMenu>
         </Menu.Item>

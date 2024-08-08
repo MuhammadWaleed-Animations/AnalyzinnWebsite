@@ -40,6 +40,7 @@ const App = () => {
     <>
     <BussinessAnalytics />
     {/* just for debugging */}
+
       <HomeTop />
 
       <div>
@@ -49,7 +50,7 @@ const App = () => {
         <div
           style={{
             minHeight: "100vh",
-            padding: "40px",  
+            padding: "40px",
             background: "#f0f2f5",
           }}
         >
