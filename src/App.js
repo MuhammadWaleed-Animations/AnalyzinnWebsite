@@ -1,10 +1,11 @@
 import React from "react";
 import Home from "./pages/Home";
 import Tab from "./components/Tab/Tab";
-import Footer from "./components/footer/footer";
+//import Footer from "./components/footer/footer";
 import WhatSetsUsApart from "./WhatSetsUsApart";
 import ContactButton from "./ContactButton";
 import HomeTop from "./components/HomeTop";
+import Services from "./pages/Services";
 // import './App.css';
 const array = [
   {
@@ -36,6 +37,7 @@ const array = [
 const App = () => {
   return (
     <>
+      <Services/> {/* //Working here but not with router */}
       <HomeTop />
 
       <div>
@@ -45,14 +47,13 @@ const App = () => {
         <div
           style={{
             minHeight: "100vh",
-            padding: "40px",
+            padding: "40px",  
             background: "#f0f2f5",
           }}
         >
           <WhatSetsUsApart />
           <ContactButton />
         </div>
-        <Footer />
       </div>
     </>
   );
