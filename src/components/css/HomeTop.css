@@ -12,10 +12,10 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("https://i.pngimg.me/thumb/f/720/34b84e428dd040619396.jpg");
+  background-image: url("../../Images/gray.png");
   background-repeat: no-repeat;
   background-size: cover;
-  filter: blur(4px);
+  filter: blur(0px);
   z-index: 0;
 }
 
@@ -36,18 +36,18 @@
 
 .site-layout-content .ant-typography,
 .site-layout-content .ant-btn {
-  color: rgb(0, 68, 196);
+  color: rgb(0, 0, 0);
 }
 
 .ant-btn-primary {
-  background-color: #1890ff;
-  border-color: #1890ff;
-  padding: 15px 24px;
+  background-color: #000;
+  border-color: #2b2c2e;
+  padding: 24px 28px;
   font-size: 1.2em;
 }
 
 .ant-btn-primary:hover,
 .ant-btn-primary:focus {
-  background-color: #1a75c0;
-  border-color: #40a9ff;
+  background-color: #323536 !important;
+  border-color: #2a2f33;
 }
