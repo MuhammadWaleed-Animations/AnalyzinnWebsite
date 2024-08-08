@@ -14,7 +14,7 @@ const array = [
     label: "Business Analytics",
     children:
       "Truly data-driven organizations gain a competitive advantage over their competitors who view data using traditional methods. Enable your organization to view data differently and unlock the true potential of your business. Use data to empower decision making in all business functions.",
-    link: "link0",
+    link: "/Bussiness-analytics",
     img: "img0.jpeg",
   },
   {
@@ -22,7 +22,7 @@ const array = [
     label: "Digital Marketing & Analytics",
     children:
       "Are your digital marketing goals driven by data, or just a shot in the dark? Either way, ANALYZINN can help to gain competitive advantage by providing you the right knowledge, at the right time",
-    link: "link1",
+    link: "/DigitalMarketing",
     img: "img1.jpg",
   },
   {
@@ -38,7 +38,6 @@ const array = [
 const App = () => {
   return (
     <>
-
       <HomeTop />
 
       <div>
