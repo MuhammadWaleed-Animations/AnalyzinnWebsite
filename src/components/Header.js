@@ -49,7 +49,7 @@ export default function Navbar() {
             <a href="#business-analytics">
               <Menu.Item
                 key="2-1"
-                onClick={() => navigate("/services/analytics")}
+                onClick={() => navigate("/BussinessAnalytics")}
               >
                 Business Analytics
               </Menu.Item>
