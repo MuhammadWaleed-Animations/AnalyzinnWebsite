@@ -14,7 +14,7 @@
 /* Tab content wrapper */
 .tab-content-wrapper {
     display: flex;
-    align-items: center; /* Center items vertically */
+    align-items:center; /* Center items vertically */
     gap: 20px; /* Space between image and text */
     background-color: #ffffff; /* Background color for content wrapper */
     border-radius: 8px; /* Rounded corners for content wrapper */
@@ -27,10 +27,10 @@
 .tab-content-wrapper img {
     width: 600px; /* Set consistent width */
     height: 300px; /* Set consistent height */
-    object-fit: cover; /* Ensure image covers area without distortion */
+    object-fit:contain; /* Ensure image covers area without distortion */
     flex-shrink: 0; /* Prevent image from shrinking */
     border-radius: 8px; /* Rounded corners for image */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for image */
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 1); /* Box shadow for image */
 }
 
 /* Text content styling */
@@ -44,6 +44,13 @@
     max-width: 100%; /* Adjust based on your layout */
     line-height: 1.5; /* Improved readability */
 }
+
+
+.tab-label {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
 
 /* Button container */
 .button-container {

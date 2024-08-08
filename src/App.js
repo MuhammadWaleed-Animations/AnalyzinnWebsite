@@ -4,7 +4,9 @@ import Tab from "./components/Tab/Tab";
 import Footer from "./components/footer/footer";
 import WhatSetsUsApart from "./components/WhatSetsUsApart";
 import ContactButton from "./components/ContactButton";
+// >>>>>>> 00d5da72a3aa5188137e830104b522316a94434c
 import HomeTop from "./components/HomeTop";
+import Services from "./pages/Services";
 // import './App.css';
 const array = [
   {
@@ -36,6 +38,7 @@ const array = [
 const App = () => {
   return (
     <>
+      <Services/> {/* //Working here but not with router */}
       <HomeTop />
 
       <div>
@@ -45,14 +48,13 @@ const App = () => {
         <div
           style={{
             minHeight: "100vh",
-            padding: "40px",
+            padding: "40px",  
             background: "#f0f2f5",
           }}
         >
           <WhatSetsUsApart />
           <ContactButton />
         </div>
-        <Footer />
       </div>
     </>
   );
