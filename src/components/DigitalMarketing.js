@@ -1,9 +1,9 @@
 import React from "react";
-import "./DigitalMarketing.css"; // Updated CSS file
+import "./css/DigitalMarketing.css"; // Updated CSS file
 
 const MarketingTabs = () => {
   return (
-    <div className="tabs-container">
+    <div className="tabs-container" id="#digital-marketing">
       <div className="marketing-header">
         <h1>Dive In</h1>
         <h2>Digital Marketing Analytics</h2>
