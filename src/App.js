@@ -38,8 +38,6 @@ const array = [
 const App = () => {
   return (
     <>
-    <BussinessAnalytics />
-    {/* just for debugging */}
 
       <HomeTop />
 
