@@ -1,0 +1,108 @@
+/* Container styling */
+.tab-container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Tabs wrapper */
+.tabs-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+/* Tab content wrapper */
+.tab-content-wrapper {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    gap: 20px; /* Space between image and text */
+    background-color: #ffffff; /* Background color for content wrapper */
+    border-radius: 8px; /* Rounded corners for content wrapper */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for content wrapper */
+    padding: 20px; /* Padding inside content wrapper */
+    margin: 20px 0; /* Margin around content wrapper */
+}
+
+/* Icon and text wrapper */
+.icon-and-text {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Icon styling */
+.tab-icon {
+    font-size: 50px; /* Increase the size of the icon */
+    color: dodgerblue; /* Set the color to dodger blue */
+}
+
+/* Text content styling */
+.tab-content {
+    font-size: 16px;
+    color: #333;
+    padding: 16px;
+    background-color: #f9f9f9;
+    border-radius: 8px; /* Rounded corners for text content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for text content */
+    max-width: 100%; /* Adjust based on your layout */
+    line-height: 1.5; /* Improved readability */
+}
+
+/* Button container */
+.button-container {
+    display: flex;
+    justify-content: center; /* Center the button */
+    padding: 16px;
+    margin-top: 20px; /* Space above the button */
+}
+
+/* Button styling */
+.gradient-button {
+    background: linear-gradient(45deg, #333333, #000000); /* Black gradient background */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    padding: 12px 24px; /* Padding */
+    font-size: 14px; /* Font size */
+    font-weight: bold; /* Font weight */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background 0.3s ease, transform 0.3s ease; /* Smooth transition */
+    outline: none; /* Remove default focus outline */
+    text-transform: uppercase; /* Uppercase text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for button */
+}
+
+.gradient-button:hover {
+    background: linear-gradient(45deg, #000000, #333333); /* Reverse gradient on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.gradient-button:focus {
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.5); /* Focus outline with shadow */
+}
+
+.gradient-button:active {
+    background: linear-gradient(45deg, #000000, #333333); /* Same gradient on active state */
+    transform: scale(0.95); /* Slightly shrink on click */
+}
+
+.services-title {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 250px;
+    padding-bottom: 50px;
+    font-size: 75px;
+    position: relative;
+}
+
+.cyan-dash {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background-color: cyan;
+    margin-bottom: 20px;
+}

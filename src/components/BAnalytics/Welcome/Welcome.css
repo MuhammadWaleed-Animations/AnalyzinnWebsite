@@ -1,0 +1,62 @@
+/* WelcomeComponent.css */
+.welcome-container {
+    background-image: url('/public/images/welcome.avif');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  /* .welcome-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+  }
+   */
+  h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+  
+  
+.gradient-button {
+    background: linear-gradient(70deg, #333, #000);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    outline: none;
+    text-transform: uppercase;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .gradient-button:hover {
+    transform: scale(1.05);
+  }
+  
+  .gradient-button:focus {
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.5);
+  }
+  
+  .gradient-button:active {
+    transform: scale(0.95);
+  }
