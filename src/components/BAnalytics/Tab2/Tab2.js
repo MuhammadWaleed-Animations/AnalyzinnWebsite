@@ -1,5 +1,8 @@
+<<<<<<< HEAD
+=======
 
-import React, { useState } from 'react';
+>>>>>>> 985738feed9165ebecf60e45b917fce6741ccc7f
+// import React, { useState } from 'react';
 import { Tabs } from 'antd';
 import './Tab2.css'; // Import your custom CSS file
 

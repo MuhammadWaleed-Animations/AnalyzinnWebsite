@@ -1,12 +1,12 @@
 import React from "react";
 import Home from "./pages/Home";
 import Tab from "./components/Tab/Tab";
-import Footer from "./components/footer/footer";
+// import Footer from "./components/footer/footer";
 import WhatSetsUsApart from "./components/WhatSetsUsApart";
 import ContactButton from "./components/ContactButton";
 // >>>>>>> 00d5da72a3aa5188137e830104b522316a94434c
 import HomeTop from "./components/HomeTop";
-import BussinessAnalytics from "./pages/BussinessAnalytics";
+// import BussinessAnalytics from "./pages/BussinessAnalytics";
 // import './App.css';
 const array = [
   {
@@ -40,6 +40,10 @@ const App = () => {
     <>
       <HomeTop />
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 985738feed9165ebecf60e45b917fce6741ccc7f
       <div>
         <Tab arr={array} />
 

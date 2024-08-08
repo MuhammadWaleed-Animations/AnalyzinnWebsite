@@ -1,6 +1,10 @@
 /* src/ContactButton.css */
 
 .contact-button {
+<<<<<<< HEAD
+=======
+  width: 500px;
+>>>>>>> 985738feed9165ebecf60e45b917fce6741ccc7f
     position: fixed;
     bottom: 20px;
     right: 20px;
