@@ -28,7 +28,7 @@ const array = [
     label: "Automation & Integration",
     children:
       "Analyzinn Solutions offer end-to-end Automation and Integration Services to help you embrace digital transformation and build a cost-efficient system. We are experienced in leveraging APIs and the Integration of standard applications. We help you reduce manual efforts.",
-    link: "link2",
+    link: "/Automation",
     img: "img2.jpg",
   },
 ];
