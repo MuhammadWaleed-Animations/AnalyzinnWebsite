@@ -11,7 +11,11 @@ const WhyChooseUs = () => {
           <Col xs={24} md={12}>
             <img 
               src="https://analyzinn.com/wp-content/uploads/elementor/thumbs/consulting-jobs-1024x512-b-1-1-ptovez4o4d1lueiwanas8iwqqtg7qtxfldara4vcgg.jpeg"  
+<<<<<<< HEAD
               alt="Consulting Image" 
+=======
+              alt="Consulting" 
+>>>>>>> 985738feed9165ebecf60e45b917fce6741ccc7f
               style={{ width: '100%', borderRadius: '8px' }} 
             />
           </Col>
