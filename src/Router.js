@@ -19,9 +19,10 @@ export default function Routing() {
 
         <Route path="/services" element={<Services />} />
         <Route path="/Automation" element={<Automation />} />
+        
+        { <Route path="/about" element={<About />} /> }
         <Route path="/DigitalMarketing" element={<MarketingTabs />} />
         {/* <Route path="/Bussiness-analytics" element={<Component name />} /> */}
-        <Route path="/about" element={<About />} />
         {/* <Route path="/contact" element={<Contact />} /> */}
       </Routes>
       <Footer />
