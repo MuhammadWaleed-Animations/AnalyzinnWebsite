@@ -1,6 +1,6 @@
 import React from 'react';
 import { Carousel, Typography, Row, Col } from 'antd';
-import './TestimonialSlider.css'; 
+import './css/TestimonialSlider.css'; 
 import testimonials from '../data/testimonials';
 
 const { Title, Text } = Typography;

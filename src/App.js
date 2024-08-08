@@ -1,9 +1,10 @@
 import React from "react";
 import Home from "./pages/Home";
 import Tab from "./components/Tab/Tab";
-//import Footer from "./components/footer/footer";
-import WhatSetsUsApart from "./WhatSetsUsApart";
-import ContactButton from "./ContactButton";
+import Footer from "./components/footer/footer";
+import WhatSetsUsApart from "./components/WhatSetsUsApart";
+import ContactButton from "./components/ContactButton";
+// >>>>>>> 00d5da72a3aa5188137e830104b522316a94434c
 import HomeTop from "./components/HomeTop";
 import Services from "./pages/Services";
 // import './App.css';
@@ -29,7 +30,7 @@ const array = [
     label: "Automation & Integration",
     children:
       "Analyzinn Solutions offer end-to-end Automation and Integration Services to help you embrace digital transformation and build a cost-efficient system. We are experienced in leveraging APIs and the Integration of standard applications. We help you reduce manual efforts.",
-    link: "link2",
+    link: "/Automation",
     img: "img2.jpg",
   },
 ];
