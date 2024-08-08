@@ -1,3 +1,9 @@
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
 .container {
     padding: 60px 20px; 
     background-color: #fff;
@@ -40,19 +46,19 @@
     left: 0;
     width: 100%;
     height: 2px; 
-    background-color: #00bfa5;
+    background-color: #073763;
   }
   
 
   .icon {
     font-size: 30px; 
-    color: #00bfa5;
+    color: #073763;
     margin-right: 30px; 
     transition: color 0.3s, background-color 0.3s, padding 0.3s, border-radius 0.3s;
   }
   
   .service-card:hover .icon {
-    background-color: #00bfa5;
+    background-color: #2d91ee;
     border-radius: 3px;
     padding: 3px;
     color: #073763; 
@@ -79,7 +85,7 @@
   .progress-line {
     height: 3px;
     width: 0;
-    background-color: #00bfa5;
+    background-color: #073763;
     position: absolute;
     bottom: -30px;
     left: 0;
@@ -92,8 +98,16 @@
   
   /* Responsive Styles */
   @media (max-width: 767px) {
+    body{
+      width: 100%;
+      max-width: 1200px;
+    }
+
     .container {
       padding: 50px 10px; 
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
     }
   
     .title {
@@ -104,9 +118,13 @@
       flex-direction: column; 
       align-items: flex-start; 
     }
+    .service-title{
+      font-size: 26px !important;
+      font-weight: 600;
+    }
   
     .icon {
-      margin-right: 0; 
+      margin:0 40% ; 
       margin-bottom: 20px;
     }
   }

@@ -5,7 +5,7 @@ import './Tab.css'; // Import your custom CSS file
 
 const { TabPane } = Tabs;
 
-const Tab2 = (props) => {
+const Tab = (props) => {
   const [currLink, setLink] = useState(props.arr[0].link);
 
   const onChange = (key) => {
@@ -15,17 +15,16 @@ const Tab2 = (props) => {
 
   return (
     <div className="tab-container">
-      <h1 style={{ textAlign: "center" }}>Our Services</h1>
-      <p style={{ textAlign: "center" }}>Each Service, tailored for you. From this Click until the End!</p>
+      <h1 style={{ textAlign: "center" }}>Data & Business Analytics Services</h1>
 
       <Tabs defaultActiveKey="0" onChange={onChange} centered>
         {props.arr.map((item, index) => (
-          <TabPane tab={item.label} key={index}>
+          <TabPane tab={<span className="tab-label">{item.label}</span>} key={index}>
             {console.log(item.img)}
             <div className="tab-content-wrapper">
               <img src={`/images/${item.img}`} alt={"img for key: " + item.key} />
               <div className="tab-content">
-                {item.children}
+                <p>{item.children}</p>
                 <div className="button-container">
                   <a href={currLink}>
                     <button className="gradient-button">Show More Info</button>
@@ -40,7 +39,7 @@ const Tab2 = (props) => {
   );
 };
 
-export default Tab2;
+export default Tab;
 
 
 //////////////////////////////////////////////////////////////////////

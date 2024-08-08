@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Button, Modal, Form, Input } from 'antd';
 import { MailOutlined } from '@ant-design/icons';
-import './ContactButton.css'; // Import the CSS file
+import './css/ContactButton.css'; // Import the CSS file
 
 const ContactButton = () => {
   const [isModalVisible, setIsModalVisible] = useState(false);

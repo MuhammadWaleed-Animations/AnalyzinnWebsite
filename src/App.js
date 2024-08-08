@@ -2,9 +2,11 @@ import React from "react";
 import Home from "./pages/Home";
 import Tab from "./components/Tab/Tab";
 import Footer from "./components/footer/footer";
-import WhatSetsUsApart from "./WhatSetsUsApart";
-import ContactButton from "./ContactButton";
+import WhatSetsUsApart from "./components/WhatSetsUsApart";
+import ContactButton from "./components/ContactButton";
+// >>>>>>> 00d5da72a3aa5188137e830104b522316a94434c
 import HomeTop from "./components/HomeTop";
+import BussinessAnalytics from "./pages/BussinessAnalytics";
 // import './App.css';
 const array = [
   {
@@ -36,6 +38,9 @@ const array = [
 const App = () => {
   return (
     <>
+    <BussinessAnalytics />
+    {/* just for debugging */}
+
       <HomeTop />
 
       <div>
@@ -52,7 +57,6 @@ const App = () => {
           <WhatSetsUsApart />
           <ContactButton />
         </div>
-        <Footer />
       </div>
     </>
   );

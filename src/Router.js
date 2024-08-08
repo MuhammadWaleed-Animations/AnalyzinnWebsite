@@ -1,8 +1,14 @@
 import { Routes, Route } from "react-router-dom";
 import App from "./App";
-import Topbar from "./components/Topbar";
-import Automation from "./pages/Automation";
 import About from "./pages/About";
+import Services from "./pages/Services";
+import Topbar from "./components/Topbar";
+import Footer from "./components/footer/footer";
+import Automation from "./pages/Automation";
+import BussinessAnalytics from "./pages/BussinessAnalytics";
+import MarketingTabs from "./components/DigitalMarketing";
+
+// >>>>>>> 00d5da72a3aa5188137e830104b522316a94434c
 
 export default function Routing() {
   return (
@@ -10,11 +16,16 @@ export default function Routing() {
       <Topbar />
       <Routes>
         <Route index path="/" element={<App />} />
+
+        <Route path="/services" element={<Services />} />
         <Route path="/Automation" element={<Automation />} />
-        {/* <Route path="/srevices" element={<Services />} /> */}
+        
         { <Route path="/about" element={<About />} /> }
+        <Route path="/DigitalMarketing" element={<MarketingTabs />} />
+        {/* <Route path="/Bussiness-analytics" element={<Component name />} /> */}
         {/* <Route path="/contact" element={<Contact />} /> */}
       </Routes>
+      <Footer />
     </>
   );
 }
