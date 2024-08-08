@@ -6,7 +6,7 @@ import WhatSetsUsApart from "./components/WhatSetsUsApart";
 import ContactButton from "./components/ContactButton";
 // >>>>>>> 00d5da72a3aa5188137e830104b522316a94434c
 import HomeTop from "./components/HomeTop";
-import Services from "./pages/Services";
+import BussinessAnalytics from "./pages/BussinessAnalytics";
 // import './App.css';
 const array = [
   {
@@ -38,6 +38,9 @@ const array = [
 const App = () => {
   return (
     <>
+    <BussinessAnalytics />
+    {/* just for debugging */}
+
       <HomeTop />
 
       <div>
