@@ -1,6 +1,6 @@
 import React from "react"
 import { MergeFilled, PieChartOutlined, ShareAltOutlined } from '@ant-design/icons'; 
-import Tab from "../components/BAnalytics/Tab/Tab";
+import BATab from "../components/BAnalytics/Tab/BATab";
 const array = [
     {
       key: "0",
@@ -31,9 +31,7 @@ const array = [
 const Services=()=>{
     return (
         <div>
-            <Tab arr={array} />
-                        {/*<BussinessAnalytics />             
- just for debugging */}
+            <BATab arr={array} />
         </div>
     )
 }

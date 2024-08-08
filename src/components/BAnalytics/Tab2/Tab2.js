@@ -1,35 +1,26 @@
 
 import React, { useState } from 'react';
 import { Tabs } from 'antd';
-import './Tab.css'; // Import your custom CSS file
+import './Tab2.css'; // Import your custom CSS file
 
 const { TabPane } = Tabs;
 
-const Tab = (props) => {
-  const [currLink, setLink] = useState(props.arr[0].link);
-
-  const onChange = (key) => {
-    console.log("onChange: ", key, props.arr[Number(key)].link);
-    setLink(props.arr[Number(key)].link);
-  };
+const Tab2 = (props) => {
 
   return (
     <div className="tab-container">
       <h1 style={{ textAlign: "center" }}>Data & Business Analytics Services</h1>
 
-      <Tabs defaultActiveKey="0" onChange={onChange} centered>
+      <Tabs defaultActiveKey="0" centered>
         {props.arr.map((item, index) => (
           <TabPane tab={<span className="tab-label">{item.label}</span>} key={index}>
             {console.log(item.img)}
             <div className="tab-content-wrapper">
               <img src={`/images/${item.img}`} alt={"img for key: " + item.key} />
               <div className="tab-content">
+                <br/><br/><br/>
                 <p>{item.children}</p>
-                <div className="button-container">
-                  <a href={currLink}>
-                    <button className="gradient-button">Show More Info</button>
-                  </a>
-                </div>
+                <br/><br/><br/>
               </div>
             </div>
           </TabPane>
@@ -39,7 +30,7 @@ const Tab = (props) => {
   );
 };
 
-export default Tab;
+export default Tab2;
 
 
 //////////////////////////////////////////////////////////////////////

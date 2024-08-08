@@ -5,7 +5,7 @@ import './Tab.css'; // Import your custom CSS file
 
 const { TabPane } = Tabs;
 
-const Tab2 = (props) => {
+const Tab = (props) => {
   const [currLink, setLink] = useState(props.arr[0].link);
 
   const onChange = (key) => {
@@ -40,7 +40,7 @@ const Tab2 = (props) => {
   );
 };
 
-export default Tab2;
+export default Tab;
 
 
 //////////////////////////////////////////////////////////////////////

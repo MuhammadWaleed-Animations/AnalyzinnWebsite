@@ -1,10 +1,9 @@
 // ParentComponent.js
 import React from "react"
-import Tab from "./Tab/Tab"
 import Welcome from "./Welcome/Welcome";
 import ImgText from "./imgText/imgText.js";
 import WhyOurServices from "./WhyOurServices/WhyOurServices.js";
-import Tab2 from "./Tab2/Tab.js";
+import Tab2 from "./Tab2/Tab2.js";
 
 
   const array1 = [
@@ -41,9 +40,7 @@ const BAnalytics = () => {
             />
             <WhyOurServices />
         <Tab2 arr={array1} />
-
-
-
+        
         </div>
     )
 }
