@@ -1,0 +1,82 @@
+
+  .who-we-are-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px; /* Increased padding for better spacing */
+    background-color: #111321; /* Dark background to match the modern theme */
+  }
+  
+  .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; /* Increase max-width for larger screens */
+    width: 100%;
+    gap: 40px; /* Space between text and image */
+  }
+  
+  .text-content {
+    flex: 1;
+    text-align: left;
+    max-width: 600px; /* Restrict text width for readability */
+  }
+  
+  .title {
+    font-size: 36px;
+    color: #ffffff; /* Bright white for the title */
+    margin-bottom: 10px;
+    letter-spacing: 1.5px; /* Adds slight spacing between letters */
+  }
+  
+  .subtitle {
+    font-size: 22px;
+    color: #17a2b8; /* Teal color for the subtitle for contrast */
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+  
+  .description {
+    font-size: 18px;
+    color: #cfcfcf; /* Slightly lighter text for description */
+    margin-bottom: 30px;
+  }
+  
+  .details {
+    font-size: 16px;
+    line-height: 1.6; /* Increased line-height for readability */
+    margin-bottom: 40px;
+    color: #a0a0a0;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #1f73b7; /* Blue button color */
+    border-radius: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(31, 115, 183, 0.3); /* Shadow for button */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #155a8a; /* Darker shade on hover */
+    box-shadow: 0 6px 14px rgba(31, 115, 183, 0.4); /* More pronounced shadow on hover */
+  }
+  
+  .image-content {
+    flex: 1;
+    text-align: right; /* Align image to the right */
+  }
+  
+  .image {
+    width: 100%;
+    max-width: 500px; /* Set max width for image */
+    border-radius: 10px; /* Rounded corners for the image */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Shadow for image */
+    object-fit: cover; /* Ensure image aspect ratio is maintained */
+  }
+  

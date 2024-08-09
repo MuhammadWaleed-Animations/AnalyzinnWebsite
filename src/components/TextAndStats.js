@@ -29,13 +29,13 @@ const TextAndStats = () => {
   };
 
   return (
-    <div style={{ padding: '20px 40px', background: '#f0f2f5' }}>
+    <div className = 'text-container' style={{ padding: '20px 40px', background: '#f0f2f5' }}>
       <Row gutter={[16, 16]} align="middle">
         <Col xs={24} md={12}>
           <div style={{ padding: '20px', background: '#f0f2f5', textAlign: 'center' }}>
             <Title level={0}>Why You Need to Invest in Data Today.</Title>
             <Paragraph style={{fontSize: "20px"}}>
-              There's no denying that data has become vital for us in our everyday lives. Our Amazon and Google know our preferences, our smart home devices have adapted to our everyday lives. The World of Social Media itself produces enough data to help customize our lives. So why shouldn't you use data, and scale your business exponentially!
+            Amazon and Google know our preferences, and smart home devices adapt to our lives. Social media generates data that customizes our experiences. So why not use data to scale your business exponentially!
             </Paragraph>
             <Button type="primary" className= "gradient-btn" onClick={handleLearnMoreClick}>Learn More</Button>
           </div>
@@ -43,7 +43,7 @@ const TextAndStats = () => {
 
        
         <Col xs={24} md={12}>
-          <div style={{ padding: '20px', background: '#002766', color: '#fff' }}>
+          <div className = 'stats-container' style={{ padding: '20px', background: '#002766', color: '#fff' }}>
             <Title level={4} style={{ color: '#fff', fontSize: '24px', textAlign: 'center' }}>
               LET THE NUMBERS TALK
             </Title>
