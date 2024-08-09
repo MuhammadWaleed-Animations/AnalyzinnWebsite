@@ -48,18 +48,18 @@ const services = [
 
 const OurServices = () => {
   return (
-    <div style={{ background: '#A1A1A1', padding: '50px 0' }}>
+    <div style={{ background: '#fff', padding: '50px 0' }}>
       <Row justify="center">
         <Col span={24} style={{ textAlign: 'center' }}>
-          <Title level={2}>Our Services</Title>
+          <Title level={2} style={{ color: '#003399',fontSize: '28px' }}>Our Services</Title>
         </Col>
         <Col span={12} style={{ textAlign: 'center' }}>
           <Card style={{ border: 'none', background: 'transparent' }}>
-            <Title level={4}>Our Services will help you Answer these Questions:</Title>
+            <Title level={4} style={{ color: '#003399', fontSize: '24px' }}>Our Services will help you Answer these Questions:</Title>
             <ul style={{ listStyleType: 'none', padding: 0 }}>
               {serviceQuestions.map((question, index) => (
                 <li key={index} style={{ textAlign: 'left', margin: '10px 0' }}>
-                  <Text>
+                  <Text style={{ color: '#000', fontSize: '22px' }}>
                     • {question}
                   </Text>
                 </li>
@@ -74,10 +74,10 @@ const OurServices = () => {
             <Card
               cover={<img alt={service.title} src={service.image} />}
               hoverable
-              style={{ textAlign: 'center', height: '100%', background: '#A1A1A1', marginLeft: '20px', marginRight: '20px' }}   
+              style={{ textAlign: 'center', height: '100%', background: '#f5f5f5', marginLeft: '20px', marginRight: '20px' }}   
             >
               <Card.Meta
-                title={service.title}
+                title={<span style={{ color: '#003399' }}>{service.title}</span>}
                 description={<Text>{service.description}</Text>}
               />
             </Card>
