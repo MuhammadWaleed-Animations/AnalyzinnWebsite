@@ -57,14 +57,14 @@ const ContactPage = () => {
             <p><EnvironmentOutlined /> 1234 Street Name, City, Country</p>
             <div className="map-placeholder">
               <p>Map Placeholder</p>
-              {/* <iframe
+              <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.835358733731!2d-123.1162266849516!3d37.774929779759026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e2c06d5b1b7%3A0x7e0dd34e4994b687!2sGoogleplex!5e0!3m2!1sen!2sus!4v1615559575841!5m2!1sen!2sus" 
                 width="100%" 
                 height="200" 
                 style={{ border: 0 }}
                 allowFullScreen="" 
                 loading="lazy"
-                ></iframe> */}
+                ></iframe>
 
             </div>
           </Card>

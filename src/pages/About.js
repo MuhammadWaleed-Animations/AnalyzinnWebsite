@@ -7,7 +7,7 @@ import TestimonialSlider from '../components/TestimonialSlider';
 
 const MoreInfo = () => {
   return (
-    <div style={{ minHeight: '100vh', padding: '70px', background: '#f0f2f5' }}>
+    <div style={{ minHeight: '100vh', background: '#fff' }}>
     <Row gutter={[16, 16]}>
       <Col span={24}>
         <HeaderSection />
