@@ -1,10 +1,9 @@
-
-  .who-we-are-section {
+.who-we-are-section {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    padding: 80px 20px; /* Increased padding for better spacing */
-    background-color: #111321; /* Dark background to match the modern theme */
+    padding: 80px 20px;
+    background-color: #111321;
   }
   
   .content-wrapper {
@@ -13,19 +12,22 @@
     align-items: center;
     max-width: 1200px; /* Increase max-width for larger screens */
     width: 100%;
-    gap: 40px; /* Space between text and image */
+    gap: 0; /* Remove gap to allow image to extend */
   }
   
   .text-content {
     flex: 1;
+    margin-left: 100px;
+    margin-right: 0%;
     text-align: left;
-    max-width: 600px; /* Restrict text width for readability */
+    max-width: 50%; /* Adjust width to allow image to cover the remaining space */
   }
   
   .title {
     font-size: 36px;
     color: #ffffff; /* Bright white for the title */
     margin-bottom: 10px;
+    margin-right: 320px;
     letter-spacing: 1.5px; /* Adds slight spacing between letters */
   }
   
@@ -70,13 +72,12 @@
   .image-content {
     flex: 1;
     text-align: right; /* Align image to the right */
+    overflow: hidden; /* Ensure image doesn’t overflow its container */
   }
   
   .image {
     width: 100%;
-    max-width: 500px; /* Set max width for image */
-    border-radius: 10px; /* Rounded corners for the image */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Shadow for image */
+    height: 100%; /* Ensure image covers the entire container */
     object-fit: cover; /* Ensure image aspect ratio is maintained */
   }
   

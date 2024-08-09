@@ -1,7 +1,7 @@
 import React from 'react';
 import './WhoWeAre.css'; // Ensure this CSS file is created with the styles provided below
-import CRM from '../Images/CRM.jpg'
-import About from '../pages/About'
+import CRM from '../Images/CRM.jpg';
+import About from '../pages/About';
 
 const WhoWeAre = () => {
   return (
