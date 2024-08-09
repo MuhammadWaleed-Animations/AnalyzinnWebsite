@@ -1,6 +1,7 @@
 /* src/ContactButton.css */
 
 .contact-button {
+  width: 500px;
     position: fixed;
     bottom: 20px;
     right: 20px;

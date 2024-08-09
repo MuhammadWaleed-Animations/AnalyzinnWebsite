@@ -1,0 +1,83 @@
+.who-we-are-section {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 80px 20px;
+    background-color: #111321;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; /* Increase max-width for larger screens */
+    width: 100%;
+    gap: 0; /* Remove gap to allow image to extend */
+  }
+  
+  .text-content {
+    flex: 1;
+    margin-left: 100px;
+    margin-right: 0%;
+    text-align: left;
+    max-width: 50%; /* Adjust width to allow image to cover the remaining space */
+  }
+  
+  .title {
+    font-size: 36px;
+    color: #ffffff; /* Bright white for the title */
+    margin-bottom: 10px;
+    margin-right: 320px;
+    letter-spacing: 1.5px; /* Adds slight spacing between letters */
+  }
+  
+  .subtitle {
+    font-size: 22px;
+    color: #17a2b8; /* Teal color for the subtitle for contrast */
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+  
+  .description {
+    font-size: 18px;
+    color: #cfcfcf; /* Slightly lighter text for description */
+    margin-bottom: 30px;
+  }
+  
+  .details {
+    font-size: 16px;
+    line-height: 1.6; /* Increased line-height for readability */
+    margin-bottom: 40px;
+    color: #a0a0a0;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #1f73b7; /* Blue button color */
+    border-radius: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(31, 115, 183, 0.3); /* Shadow for button */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #155a8a; /* Darker shade on hover */
+    box-shadow: 0 6px 14px rgba(31, 115, 183, 0.4); /* More pronounced shadow on hover */
+  }
+  
+  .image-content {
+    flex: 1;
+    text-align: right; /* Align image to the right */
+    overflow: hidden; /* Ensure image doesn’t overflow its container */
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%; /* Ensure image covers the entire container */
+    object-fit: cover; /* Ensure image aspect ratio is maintained */
+  }
+  

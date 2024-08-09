@@ -1,5 +1,4 @@
-
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import { Tabs } from 'antd';
 import './Tab2.css'; // Import your custom CSS file
 

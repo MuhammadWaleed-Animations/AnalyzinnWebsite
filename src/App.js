@@ -1,13 +1,13 @@
 import React from "react";
-import Home from "./pages/Home";
+// import Home from "./pages/Home";
 import Tab from "./components/Tab/Tab";
-import Footer from "./components/footer/footer";
+import TextAndStats  from "./components/TextAndStats";
+import TestimonialSlider from "./components/TestimonialSlider";
 import WhatSetsUsApart from "./components/WhatSetsUsApart";
 import ContactButton from "./components/ContactButton";
+import WhoWeAre from "./components/WhoWeAre";
 // >>>>>>> 00d5da72a3aa5188137e830104b522316a94434c
 import HomeTop from "./components/HomeTop";
-import BussinessAnalytics from "./pages/BussinessAnalytics";
-// import './App.css';
 const array = [
   {
     key: "0",
@@ -40,18 +40,31 @@ const App = () => {
     <>
       <HomeTop />
 
+      <WhatSetsUsApart />
+
+      <TextAndStats/>
+    
+
+
       <div>
         <Tab arr={array} />
 
-        <Home />
+       
+       
         <div
           style={{
             minHeight: "100vh",
             padding: "40px",
-            background: "#f0f2f5",
+            background: "#ffffff",
           }}
         >
-          <WhatSetsUsApart />
+
+          <WhoWeAre />
+        
+          <TestimonialSlider/>
+
+
+
           <ContactButton />
         </div>
       </div>
