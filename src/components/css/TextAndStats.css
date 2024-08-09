@@ -1,3 +1,13 @@
+.text-container{
+    width: 90%;
+    margin: 4% auto;
+    border-radius: 10px;
+}
+
+.stats-container{
+    border-radius: 10px;
+}
+
 .gradient-btn{
     background: linear-gradient(45deg, #333333, #000000); /* Black gradient background */
     color: white; /* Text color */
