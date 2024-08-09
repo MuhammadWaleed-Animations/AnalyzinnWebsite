@@ -1,11 +1,11 @@
 import React from "react";
-import AutomationIntegration from "../components/AutomationIntegration";
 import OurServices from "../components/OurServices";
+import AutomationTitle from "../components/AutomationTitle";
 
 const AutomationPage = () => {
   return (
-    <div style={{ marginTop: "20px" }}>
-      <AutomationIntegration />
+    <div>
+      <AutomationTitle />
       <OurServices />
     </div>
   );

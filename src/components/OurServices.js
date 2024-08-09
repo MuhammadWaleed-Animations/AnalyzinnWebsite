@@ -35,7 +35,7 @@ const services = [
     image: CRM
   },
   {
-    title: 'Automation And Integration From APIs',
+    title: 'APIs Automation And Integration',
     description: 'Certified architects to develop and execute integration solutions by the Leverage APIs and standard connections.',
     image: 'https://d1ax5wqehib729.cloudfront.net/wp-content/uploads/2019/01/10055617/API-Testing.jpg' 
   },
@@ -48,10 +48,13 @@ const services = [
 
 const OurServices = () => {
   return (
-    <div style={{ background: '#fff', padding: '50px 0' }}>
+    <div style={{ background: '#fff', padding: '40px' }}>
       <Row justify="center">
-        <Col span={24} style={{ textAlign: 'center' }}>
-          <Title level={2} style={{ color: '#003399',fontSize: '28px' }}>Our Services</Title>
+        <Col>
+          <Title level={1} style={{ color: '#003399', marginTop: '10px' }}>Service Description</Title>
+          <Text style={{ display: 'block', marginBottom: '20px', maxWidth: '600px', margin: '20px auto', color: '#000', fontSize: '22px' }}>
+            Analyzinn Solutions offer end-to-end Automation and Integration Services to help you embrace digital transformation and build a cost-efficient system. We are experienced in leveraging APIs and the Integration of standard applications. We help you reduce manual efforts.
+          </Text>
         </Col>
         <Col span={12} style={{ textAlign: 'center' }}>
           <Card style={{ border: 'none', background: 'transparent' }}>
@@ -59,7 +62,7 @@ const OurServices = () => {
             <ul style={{ listStyleType: 'none', padding: 0 }}>
               {serviceQuestions.map((question, index) => (
                 <li key={index} style={{ textAlign: 'left', margin: '10px 0' }}>
-                  <Text style={{ color: '#000', fontSize: '22px' }}>
+                  <Text style={{ color: '#000', fontSize: '20px' }}>
                     • {question}
                   </Text>
                 </li>
@@ -68,22 +71,24 @@ const OurServices = () => {
           </Card>
         </Col>
       </Row>
-      <Row gutter={[16, 16]} justify="center" style={{ marginTop: '20px' }}>
-        {services.map((service, index) => (
-          <Col key={index} xs={24} md={12} lg={8}>
-            <Card
-              cover={<img alt={service.title} src={service.image} />}
-              hoverable
-              style={{ textAlign: 'center', height: '100%', background: '#f5f5f5', marginLeft: '20px', marginRight: '20px' }}   
-            >
-              <Card.Meta
-                title={<span style={{ color: '#003399' }}>{service.title}</span>}
-                description={<Text>{service.description}</Text>}
-              />
-            </Card>
-          </Col>
-        ))}
-      </Row>
+      <div style={{ padding: '50px' }}>
+        <Row gutter={[16, 16]} justify="center" style={{ marginTop: '20px' }}>
+          {services.map((service, index) => (
+            <Col key={index} xs={24} md={12} lg={8}>
+              <Card
+                hoverable
+                style={{ textAlign: 'left', height: '100%', background: '#f5f5f5' }}
+                cover={<div style={{ display: 'flex', justifyContent: 'center' }}><img alt={service.title} src={service.image} style={{ width: '100%', maxWidth: '300px' }} /></div>}
+              >
+                <Card.Meta
+                  title={<span style={{ color: '#003399', fontSize: '22px' }}>{service.title}</span>}
+                  description={<span style={{ color: '#fff', fontSize: '24px' }}><Text>{service.description}</Text></span>}
+                />
+              </Card>
+            </Col>
+          ))}
+        </Row>
+      </div>
     </div>
   );
 };
