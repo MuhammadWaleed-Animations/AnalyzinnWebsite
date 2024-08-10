@@ -1,13 +1,23 @@
 import React from 'react';
-import { Typography } from 'antd';
+import { Typography, Row, Col, Button } from 'antd';
 
-const { Title } = Typography;
+const { Title, Text } = Typography;
 
 const HeaderSection = () => {
   return (
-    <div style={{ textAlign: 'center', background: '#003399', padding: '50px 0' }}>
-      <Title level={1} style={{ color: '#fff', fontSize: '48px' }}>Automation & Integration</Title>
-      <div style={{ borderTop: '2px solid #fff', width: '250px', margin: '10px auto' }} />
+    <div style={{ background: '#003399', padding: '50px 0', textAlign: 'center', color: '#fff' }}>
+      <Row justify="center">
+        <Col>
+        
+          <Title level={1} style={{ color: '#fff', marginTop: '10px' }}>Automation & Integration</Title>
+          <Text style={{ display: 'block', marginBottom: '20px', maxWidth: '600px', margin: '20px auto', color: '#fff',fontSize: '22px' }}>
+          Analyzinn Solutions drives automation and integration to reduce manual efforts.
+          </Text>
+          <Button type="primary" size="large" style={{ backgroundColor: '#000', borderColor: '#003399', marginTop: '0px' }}>
+            Free Consultation Today
+          </Button>
+        </Col>
+      </Row>
     </div>
   );
 };

@@ -1,9 +1,8 @@
 .marketing-header {
   margin-top: 40px;
-  margin-bottom: 40px;
   padding: 20px;
   border: 1px solid #d9d9d9;
-  background-color: #060f35;
+  background-color: #003399;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
@@ -13,8 +12,9 @@
 
 .marketing-header h1 {
   font-size: 2rem;
-  margin: 0 0 8px;
+  padding-top: 40px;
   color: #ffffff;
+  padding: "50px 0";
 }
 
 .marketing-header h2 {
@@ -26,7 +26,7 @@
 .marketing-header p {
   font-size: 1.2rem;
   margin: 0 0 20px;
-  color: #dbdbdb;
+  color: #ffffff;
   max-width: 800px;
 }
 
@@ -46,33 +46,29 @@
   background-color: #005bb5;
 }
 
-.marketing-header img {
-  max-width: 100%;
-  height: 400px;
-  margin: 20px auto 0;
-}
-
 .tabs-container {
   padding: 40px;
   text-align: center;
-  background-color: #afafaf;
+  background-color: #ffffff;
 }
 
 .tabs-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  gap: 20px;
+  gap: 25px;
+  padding: 2%;
 }
 
 .tab-pane {
-  flex: 1 1 calc(33.333% - 40px);
+  flex: 1 1 calc(28% - 40px);
   border: 1px solid #000000;
   border-radius: 8px;
-  background-color: #0a0731;
+  background-color: #003399;
   padding: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
+  justify-content: center;
 }
 
 .tab-pane:hover {
@@ -82,34 +78,41 @@
 .tab-content {
   text-align: left;
   margin-top: auto;
+  position: relative;
+  width: 100%;
+  background-color: #013eb8;
+  height: 170px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .tab-content h3 {
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-  color: #000000;
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+  color: #ffffff;
 }
 
 .tab-content p {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   line-height: 1.4;
-  color: #0066cc;
+  color: #ffffff;
 }
 
 .tab-pane img {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+
+  height: 250px;
   border-radius: 8px;
   margin-bottom: 15px;
 }
 
 .additional-section {
-  background-color: #060f35;
-  color: white;
+  background-color: #f7f7f7;
+  color: rgb(0, 0, 0);
   padding: 40px;
   margin-top: 40px;
   border-radius: 8px;
-  text-align: center;
+  text-align: left;
 }
 
 .additional-section h2 {
@@ -129,30 +132,22 @@
 
 .additional-section ul li {
   font-size: 1.2em;
-  margin: 10px 0;
+  margin: 5px 0;
   position: relative;
-  padding-left: 20px;
 }
 
-.additional-section ul li:before {
-  content: "";
-  position: relative;
-  left: 0;
-  color: #000000;
-  font-size: 1.5em;
-}
 .new-section {
-  background-color: #cacaca;
+  background-color: #f7f7f7;
   color: rgb(0, 0, 0);
   padding: 40px;
   margin-top: 40px;
   margin-bottom: 40px;
   border-radius: 8px;
-  text-align: center;
+  text-align: left;
 }
 
 .new-section h2 {
-  font-size: 2.5em;
+  font-size: 5em;
   margin-bottom: 20px;
 }
 
@@ -171,15 +166,6 @@
   font-size: 1.2em;
   margin: 10px 0;
   position: relative;
-  padding-left: 20px;
-}
-
-.new-section ul li:before {
-  content: "";
-
-  left: 0;
-  color: #000000;
-  font-size: 1.5em;
 }
 
 @media (max-width: 768px) {
