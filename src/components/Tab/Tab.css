@@ -13,7 +13,7 @@
 .tab-container p{
     font-size: 20px;
     font-weight: 600;
-    color: gray;
+    color: 0xffffff;
     margin-left: 2%;
     margin-top: 1%;
 }
@@ -32,8 +32,8 @@
     align-items: center; /* Center items vertically */
     gap: 20px; /* Space between image and text */
     background-color: #ffffff; /* Background color for content wrapper */
-    border-radius: 8px; /* Rounded corners for content wrapper */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for content wrapper */
+    /*border-radius: 8px; /* Rounded corners for content wrapper */
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for content wrapper */
     padding: 20px; /* Padding inside content wrapper */
     margin: 20px auto !important; /* Margin around content wrapper */
     text-align: left; /* Align text left */
@@ -47,8 +47,8 @@
     height: 200px; /* Set consistent height */
     object-fit: cover; /* Ensure image covers area without distortion */
     flex-shrink: 0; /* Prevent image from shrinking */
-    border-radius: 8px; /* Rounded corners for image */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for image */
+    /*border-radius: 8px; /* Rounded corners for image */
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for image */
 }
 
 /* Text content styling */
@@ -56,8 +56,8 @@
     color: #333;
     padding: 16px;
     background-color: #ffffff;
-    border-radius: 8px; /* Rounded corners for text content */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for text content */
+    /*border-radius: 8px; /* Rounded corners for text content */
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for text content */
     max-width: 100%; /* Adjust based on your layout */
     line-height: 1.5; /* Improved readability */
     font-size: 22px !important;

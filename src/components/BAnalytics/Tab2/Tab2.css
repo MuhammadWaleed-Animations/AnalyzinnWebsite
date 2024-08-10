@@ -7,22 +7,20 @@
 /* Tabs wrapper */
 .tabs-wrapper {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     margin-bottom: 16px;
 }
 
 /* Tab content wrapper */
 .tab-content-wrapper {
     display: flex;
-    align-items:center; /* Center items vertically */
+    align-items: center; /* Center items vertically */
     gap: 20px; /* Space between image and text */
-    background-color: #ffffff; /* Background color for content wrapper */
     border-radius: 8px; /* Rounded corners for content wrapper */
-    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for content wrapper */
-    /*padding: 20px; /* Padding inside content wrapper */
+    height: 450px;
+    padding: 20px; /* Padding inside content wrapper */
     margin: 20px 0; /* Margin around content wrapper */
 }
-
 /* Image styling */
 .tab-content-wrapper img {
     width: 600px; /* Set consistent width */
@@ -33,22 +31,26 @@
     /*box-shadow: 0 4px 8px rgba(0, 0, 0, 1); /* Box shadow for image */
 }
 
+
+
+
 /* Text content styling */
 .tab-content {
-    font-size: 26px;
-    color: #333;
-    padding: 16px;
-    padding-top: 30px;
-    background-color: #f9f9f9;
+    font-size: 23px;
     border-radius: 8px; /* Rounded corners for text content */
-    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for text content */
-    max-width: 90%; /* Adjust based on your layout */
-    line-height: 1.5; /* Improved readability */
+    max-width: 600px; /* Set the maximum width of the text content to match the image width */
+    height: 300px; /* Set the height to match the image height */
+    /*overflow: auto; /* Add scrollbars if the content overflows */
+    display: flex;
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+    /*padding: 20px; /* Padding inside text content */
+    box-sizing: border-box; /* Ensure padding is included in the width and height */
+    margin-bottom: auto;
 }
 
-
 .tab-label {
-    font-size: 15px;
+    font-size: 26px;
     font-weight: bold;
   }
 

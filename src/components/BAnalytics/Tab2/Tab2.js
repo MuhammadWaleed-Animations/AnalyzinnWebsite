@@ -18,7 +18,7 @@ const Tab2 = (props) => {
               <img src={`/images/${item.img}`} alt={"img for key: " + item.key} />
               <div className="tab-content">
                 <br/><br/><br/>
-                <p>{item.children}</p>
+                <p style={{fontSize:20, textAlign:"center"}}>{item.children}</p>
                 <br/><br/><br/>
               </div>
             </div>
