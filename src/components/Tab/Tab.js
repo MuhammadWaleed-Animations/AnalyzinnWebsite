@@ -14,18 +14,18 @@ const Tab = (props) => {
   };
 
   return (
-    <div className="tab-container">
+    <div className="tab-container" >
       <h1 style={{ textAlign: "center" }}>Our Services</h1>
       <p style={{ textAlign: "center" }}>Each Service, tailored for you. From this Click until the End!</p>
 
       <Tabs defaultActiveKey="0" onChange={onChange} centered>
         {props.arr.map((item, index) => (
-          <TabPane tab={item.label} key={index}>
+          <TabPane tab={<span style={{fontSize:25, fontWeight:"bold"}}>{item.label}</span>} key={index}>
             {console.log(item.img)}
-            <div className="tab-content-wrapper">
+            <div className="tab-content-wrapper" style={{height:450}}>
               <img src={`/images/${item.img}`} alt={"img for key: " + item.key} />
               <div className="tab-content">
-                {item.children}
+                <span style={{height:400, textAlign:"justify"}}>{item.children}</span>
                 <div className="button-container">
                   <a href={currLink}>
                     <button className="gradient-button">Show More Info</button>
