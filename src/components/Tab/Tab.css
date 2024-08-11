@@ -5,15 +5,15 @@
     margin-top: 3%;
 }
 
-.tab-container h1{
+.tab-container h1 {
     font-size: 50px;
     font-weight: 600;
 }
 
-.tab-container p{
+.tab-container p {
     font-size: 20px;
     font-weight: 600;
-    color: 0xffffff;
+    color: #333; /* Fixed color */
     margin-left: 2%;
     margin-top: 1%;
 }
@@ -32,13 +32,12 @@
     align-items: center; /* Center items vertically */
     gap: 20px; /* Space between image and text */
     background-color: #ffffff; /* Background color for content wrapper */
-    /*border-radius: 8px; /* Rounded corners for content wrapper */
-    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for content wrapper */
+    border-radius: 8px; /* Rounded corners for content wrapper */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for content wrapper */
     padding: 20px; /* Padding inside content wrapper */
     margin: 20px auto !important; /* Margin around content wrapper */
     text-align: left; /* Align text left */
     width: 80%;
-   
 }
 
 /* Image styling */
@@ -48,7 +47,7 @@
     object-fit: cover; /* Ensure image covers area without distortion */
     flex-shrink: 0; /* Prevent image from shrinking */
     /*border-radius: 8px; /* Rounded corners for image */
-    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for image */
+   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for image */
 }
 
 /* Text content styling */
@@ -56,18 +55,20 @@
     color: #333;
     padding: 16px;
     background-color: #ffffff;
-    /*border-radius: 8px; /* Rounded corners for text content */
-    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for text content */
+    border-radius: 8px; /* Rounded corners for text content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for text content */
     max-width: 100%; /* Adjust based on your layout */
     line-height: 1.5; /* Improved readability */
-    font-size: 22px !important;
+    font-size: 18px !important; /* Slightly smaller font size for professional look */
+    font-family: Arial, sans-serif; /* Professional font */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensure the button stays at the bottom */
+    height: 100%; /* Make the text content take full height */
 }
 
 /* Button container */
 .button-container {
-    display: flex;
-    justify-content: center; /* Center the button */
-    padding: 16px;
     margin-top: 20px; /* Space above the button */
 }
 
@@ -85,6 +86,7 @@
     outline: none; /* Remove default focus outline */
     text-transform: uppercase; /* Uppercase text */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for button */
+    width: 100%; /* Ensure button width matches the content */
 }
 
 .gradient-button:hover {

@@ -47,6 +47,7 @@
     /*padding: 20px; /* Padding inside text content */
     box-sizing: border-box; /* Ensure padding is included in the width and height */
     margin-bottom: auto;
+    background-color: white;
 }
 
 .tab-label {

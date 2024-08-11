@@ -36,13 +36,14 @@
   }
   
   
-  .gradient-button {
-    background: linear-gradient(70deg, #1E90FF, #00BFFF); /* Dodger blue gradient */
+  .gradient-buttonn {
+    background: linear-gradient(70deg, #275fcd, #003399); /* Dodger blue gradient */
     color: white;
     border: none;
     height: 40px;
+    width: 250px;
     padding: 12px 24px;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: bold;
     border-radius: 8px;
     cursor: pointer;
@@ -52,14 +53,17 @@
     box-shadow: 0 4px 8px rgba(30, 144, 255, 0.9); /* Dodger blue shadow */
 }
 
-.gradient-button:hover {
-    transform: scale(1.05);
+.gradient-buttonn:hover {
+    /* transform: scale(1.05); */
+    background: linear-gradient(70deg, #ffffff, #ffffff); /* Dodger blue gradient */
+    background-color: white;
+    color: #003399;
 }
 
-.gradient-button:focus {
+.gradient-buttonn:focus {
     box-shadow: 0 0 0 3px rgba(30, 144, 255, 0.5); /* Dodger blue focus outline */
 }
 
-.gradient-button:active {
+.gradient-buttonn:active {
     transform: scale(0.95);
 }

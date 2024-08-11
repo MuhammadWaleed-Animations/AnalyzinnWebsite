@@ -13,7 +13,7 @@ const Welcome = () => {
           We support leaders to EVOLVE their organizations using our proven business analyzinn services — 
           helping you achieve a competitive advantage with actionable insights.
         </p>
-        <button className="gradient-button">
+        <button className="gradient-buttonn">
           Request Free Consultation
         </button>
       </div>
