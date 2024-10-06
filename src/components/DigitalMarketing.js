@@ -1,37 +1,82 @@
 import React from "react";
 import "./css/DigitalMarketing.css";
-import { Typography, Row, Col } from "antd";
+import { Typography, Row, Col, Button } from "antd";
 
-const { Title } = Typography;
+const { Title, Text } = Typography;
 
 const MarketingTabs = () => {
   return (
     <div id="#digital-marketing">
-      <div className="marketing-header">
-        <Title level={1}>Digital Marketing Analytics</Title>
-        <div
-          style={{
-            borderTop: "2px solid #fff",
-            width: "250px",
-            margin: "10px auto",
-            marginBottom: "40px",
-          }}
-        />
-        <p>
-          We support leaders to EVOLVE their organizations using our proven
-          Digital marketing analyzinn services – helping you achieve a
-          competitive advantage with actionable insights.
-        </p>
-        <br />
-        <button className="consultation-button">Free Consultation Today</button>
+      <div
+        style={{
+          background: "#003399",
+          padding: "50px 0",
+          textAlign: "center",
+          color: "#fff",
+        }}
+      >
+        <Row justify="center">
+          <Col>
+            <Title
+              level={1}
+              style={{
+                color: "#fff",
+                marginTop: "10px",
+                fontFamily: "Times New Roman, serif",
+              }}
+            >
+              Digital Marketing Analytics
+            </Title>
+            <Text
+              style={{
+                display: "block",
+                marginBottom: "20px",
+                maxWidth: "600px",
+                margin: "20px auto",
+                color: "#fff",
+                fontSize: "20px",
+                fontFamily: "Times New Roman, serif",
+              }}
+            >
+              We support leaders to evolve their organizations using our proven
+              Digital marketing analyzinn services – helping you achieve a
+              competitive advantage with actionable insights.
+            </Text>
+            <Button
+              type="primary"
+              size="large"
+              style={{
+                backgroundColor: "#000",
+                borderColor: "#003399",
+                marginTop: "0px",
+                fontFamily: "Times New Roman, serif",
+              }}
+            >
+              Free Consultation Today
+            </Button>
+          </Col>
+        </Row>
       </div>
 
       <div className="tabs-container">
         <div className="new-section" id="our-services">
           <Row gutter={[24, 24]} align="middle">
             <Col xs={24} md={12}>
-              <h2 style={{ fontSize: "2.5em" }}>Services</h2>
-              <p className="italic-text">
+              <Title
+                level={1}
+                style={{
+                  marginTop: "10px",
+                  fontFamily: "Times New Roman, serif",
+                }}
+              >
+                Services Provided
+              </Title>
+              <p
+                className="italic-text"
+                style={{
+                  fontFamily: "Times New Roman, serif",
+                }}
+              >
                 ANALYZINN can help to gain competitive advantage by providing
                 you the right knowledge, at the right time, so you can:
               </p>
