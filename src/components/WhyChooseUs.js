@@ -23,13 +23,13 @@ const WhyChooseUs = () => {
         </Col>
         <Col xs={24} md={12} style={{ display: 'flex', alignItems: 'center' }}>
           <div>
-            <Title level={2} style={{ fontSize: '32px', color: '#003399' }}>Why Choose Us?</Title>
-            <Paragraph style={{ fontSize: '20px', color: '#000' }}>
-              We partner with our clients, take full ownership of their business needs, and devise tailored solutions for their unique requirements. Our solutions are result-oriented, technology-driven, with end-to-end implementations including Digital Marketing, BI frameworks, and strategic consultancy.
+            <Title level={2} style={{ fontSize: '28px', color: '#003399',fontFamily: 'Times New Roman, serif' }}>Why Choose Us?</Title>
+            <Paragraph style={{ fontSize: '20px', color: '#000',fontFamily: 'Times New Roman, serif' }}>
+            We partner with clients to deliver tailored, result-driven solutions, offering end-to-end services in Digital Marketing, BI frameworks, and strategic consultancy.
             </Paragraph>
-            <ul style={{ paddingLeft: '20px', listStyleType: 'none' }}>
+            <ul style={{ paddingLeft: '20px', listStyleType: 'none',fontFamily: 'Times New Roman, serif' }}>
               {services.map((service, index) => (
-                <li key={index} style={{ marginBottom: '10px', position: 'relative', paddingLeft: '25px', fontSize: '20px', color: '#003399' }}>
+                <li key={index} style={{ marginBottom: '10px', position: 'relative', paddingLeft: '25px', fontSize: '18px', color: '#003399',fontFamily: 'Times New Roman, serif' }}>
                   <span style={{
                     width: '8px',
                     height: '8px',
@@ -52,3 +52,6 @@ const WhyChooseUs = () => {
 };
 
 export default WhyChooseUs;
+
+
+
