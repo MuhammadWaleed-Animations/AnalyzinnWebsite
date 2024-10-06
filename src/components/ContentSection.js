@@ -8,14 +8,14 @@ const ContentSection = () => {
     <div style={{ padding: '40px 70px', background: '#fff' }}>
       <Row gutter={[16, 16]} align="middle">
         <Col xs={24} md={12}>
-          <Title level={1} style={{ fontSize: '30px', color: '#003399' }}>
+          <Title level={1} style={{ fontSize: '28px', color: '#003399',fontFamily: 'Times New Roman, serif' }}>
             Consulting Firm Powered by Analytics
           </Title>
-          <Paragraph style={{ fontSize: '22px', fontStyle: 'italic', color: '#000' }}>
+          <Paragraph style={{ fontSize: '20px', fontStyle: 'italic', color: '#000',fontFamily: 'Times New Roman, serif' }}>
             We support leaders to EVOLVE their organizations using our proven analytics consulting services.
           </Paragraph>
-          <Paragraph style={{ fontSize: '20px', color: '#000' }}>
-            We’re a growing group of IT professionals providing businesses worldwide with solutions and services of Data Management, Reporting & Visualization, Digital marketing, Automations & Integrations. ANALYZINN will provide you with a steady stream of actionable insights to fuel intelligent technologies; visibility to boost relevance and revenue. And accelerate innovation!
+          <Paragraph style={{ fontSize: '18px', color: '#000',fontFamily: 'Times New Roman, serif' }}>
+          ANALYZINN provides businesses with IT solutions in Data Management, Reporting, Digital Marketing, and Automation. We deliver insights to drive technology, boost visibility, and accelerate innovation.
           </Paragraph>
         </Col>
         <Col xs={24} md={12}>

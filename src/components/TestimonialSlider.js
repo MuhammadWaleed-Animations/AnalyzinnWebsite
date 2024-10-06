@@ -27,7 +27,7 @@ const TestimonialSlider = () => {
 
   return (
     <div className="testimonial-container">
-      <Title level={2} className="testimonial-title">Testimonials</Title>
+      <Title level={2} style={{  fontFamily: 'Times New Roman, serif' }} className="testimonial-title">Testimonials</Title>
       <Carousel {...settings}>
         {testimonials.map((testimonial, index) => (
           <div key={index} className="testimonial-slide">
@@ -35,10 +35,10 @@ const TestimonialSlider = () => {
               <Col span={24}>
                 <img src={testimonial.image} alt={testimonial.name} className="testimonial-image" />
               </Col>
-              <Col span={24}>
-                <Text className="testimonial-quote">"{testimonial.quote}"</Text>
-                <Title level={4} className="testimonial-name">{testimonial.name}</Title>
-                <Text type="secondary" className="testimonial-position">{testimonial.position}</Text>
+              <Col span={24} >
+                <Text style={{ fontFamily: 'Times New Roman, serif' }} className="testimonial-quote">"{testimonial.quote}"</Text>
+                <Title style={{ fontFamily: 'Times New Roman, serif' }} level={4} className="testimonial-name">{testimonial.name}</Title>
+                <Text style={{ fontFamily: 'Times New Roman, serif' }} type="secondary" className="testimonial-position">{testimonial.position}</Text>
               </Col>
             </Row>
           </div>

@@ -15,12 +15,12 @@ const AutomationIntegration = () => {
   return (
     <div style={{ background: '#f5f5f5', padding: '30px 0px', textAlign: 'center', color: '#000' }}>
       <Row justify="center">
-        <Col>
-          <Title level={1} style={{ color: '#003399', marginTop: '10px', fontSize: '20px' }}>Our Services will help you Answer these Questions:</Title>
-          <ul style={{ listStyleType: 'none', padding: 0 }}>
+        <Col xs={24} md={12}>
+          <Title level={1} style={{ color: '#003399', marginTop: '10px', fontSize: '24px',fontFamily: 'Times New Roman, serif' }}>Our Services will help you Answer these Questions:</Title>
+          <ul style={{ listStyleType: 'none', padding: 0,fontFamily: 'Times New Roman, serif' }}>
           {serviceQuestions.map((question, index) => (
-         <li key={index} style={{ textAlign: 'left', margin: '10px 0' }}>
-          <Text style={{ color: '#000', fontSize: '20px' }}>
+         <li key={index} style={{ textAlign: 'left', margin: '10px 0',fontFamily: 'Times New Roman, serif' }}>
+          <Text style={{ color: '#000', fontSize: '18px',fontFamily: 'Times New Roman, serif' }}>
             {question}
           </Text>
           </li>

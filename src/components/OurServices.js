@@ -48,16 +48,16 @@ const OurServices = () => {
             <Col key={index} xs={24} md={12} lg={8}>
               <Card
                 hoverable
-                style={{ height: '100%', background: '#f5f5f5' }}
+                style={{ height: '100%', background: '#f5f5f5',fontFamily: 'Times New Roman, serif' }}
                 cover={
-                  <div style={{ display: 'flex', justifyContent: 'center' }}>
+                  <div style={{ display: 'flex', justifyContent: 'center',fontFamily: 'Times New Roman, serif' }}>
                     <img alt={service.title} src={service.image} style={{ width: '100%', maxWidth: '300px' }} />
                   </div>
                 }
               >
                 <Card.Meta
-                  title={<span style={{ color: '#003399', fontSize: '22px' }}>{service.title}</span>}
-                  description={<Text style={{ color: '#333', fontSize: '16px' }}>{service.description}</Text>}
+                  title={<span style={{ color: '#003399', fontSize: '22px',fontFamily: 'Times New Roman, serif' }}>{service.title}</span>}
+                  description={<Text style={{ color: '#333', fontSize: '16px',fontFamily: 'Times New Roman, serif' }}>{service.description}</Text>}
                 />
               </Card>
             </Col>
