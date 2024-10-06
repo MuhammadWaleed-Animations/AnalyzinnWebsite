@@ -10,8 +10,8 @@ const Welcome = () => {
         <h1>Welcome to the World of</h1>
         <h2>Data & Business Analytics</h2>
         <p>
-          We support leaders to EVOLVE their organizations using our proven business analyzinn services — 
-          helping you achieve a competitive advantage with actionable insights.
+            We help leaders evolve their organizations with proven business analysis,
+            delivering actionable insights for a competitive edge.
         </p>
         <button className="gradient-buttonn">
           Request Free Consultation

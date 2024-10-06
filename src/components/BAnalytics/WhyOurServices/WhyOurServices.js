@@ -25,7 +25,7 @@ const WhyOurServices = () => {
         <Col span={12} className="section-evoke">
           <h2>EVOLVE Through Data Comprehension</h2>
           <p>
-            Truly data-driven organizations gain a competitive advantage over their competitors who view data using traditional methods. Enable your organization to view data differently and unlock the true potential of your business. Use data to empower decision-making in all business functions.
+          "Data-driven organizations outperform competitors using traditional methods. Unlock your business's full potential by empowering decision-making across all functions with advanced data insights."
           </p>
         </Col>
       </Row>
@@ -49,7 +49,7 @@ const WhyOurServices = () => {
       </Row>
       <Row gutter={[16, 16]}>
         <Col span={24} className="section-header">
-          <h1>ANALYZINN can help you gain a competitive advantage by providing the right knowledge at the right time, so you can:</h1>
+          <h1>We help you gain a competitive advantage, so you can:</h1>
         </Col>
         <Col span={24}>
           <List
