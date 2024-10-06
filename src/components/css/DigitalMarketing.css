@@ -28,6 +28,7 @@
   margin: 0 0 20px;
   color: #ffffff;
   max-width: 800px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .consultation-button {
@@ -56,15 +57,15 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  gap: 25px;
-  padding: 2%;
+  gap: 70px;
+  padding: 5%;
 }
 
 .tab-pane {
-  flex: 1 1 calc(28% - 40px);
+  flex: 1 1 calc(25% - 10px);
   border: 1px solid #000000;
   border-radius: 8px;
-  background-color: #003399;
+  background-color: #002570;
   padding: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
@@ -80,28 +81,31 @@
   margin-top: auto;
   position: relative;
   width: 100%;
-  background-color: #013eb8;
+  background-color: #002570;
   height: 170px;
   margin-left: auto;
   margin-right: auto;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .tab-content h3 {
-  font-size: 1.8rem;
-  margin-bottom: 5px;
+  font-size: 1.9rem;
+  margin-bottom: px;
   color: #ffffff;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .tab-content p {
   font-size: 1.1rem;
   line-height: 1.4;
   color: #ffffff;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .tab-pane img {
   width: 100%;
 
-  height: 250px;
+  height: 200px;
   border-radius: 8px;
   margin-bottom: 15px;
 }
@@ -113,21 +117,25 @@
   margin-top: 40px;
   border-radius: 8px;
   text-align: left;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .additional-section h2 {
   font-size: 2.5em;
   margin-bottom: 20px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .additional-section p {
   font-size: 1.2em;
   margin: 20px 0;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .additional-section ul {
   list-style-type: none;
   padding: 0;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .additional-section ul li {
@@ -154,7 +162,7 @@
 .italic-text {
   font-style: italic;
   margin-bottom: 20px;
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 .new-section ul {
@@ -163,7 +171,7 @@
 }
 
 .new-section ul li {
-  font-size: 1.2em;
+  font-size: 1.3em;
   margin: 10px 0;
   position: relative;
 }
