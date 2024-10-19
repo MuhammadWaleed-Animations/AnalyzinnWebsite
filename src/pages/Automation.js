@@ -1,8 +1,8 @@
 import React from "react";
-import OurServices from "../components/OurServices";
-import AutomationIntegration from "../components/AutomationIntegration";
-import AutomationTitle from "../components/AutomationTitle";
-import AutomationQuestion from "../components/AutomationQuestion";
+import OurServices from "../components/Automation/OurServices";
+import AutomationIntegration from "../components/Automation/AutomationIntegration";
+import AutomationTitle from "../components/Automation/AutomationTitle";
+import AutomationQuestion from "../components/Automation/AutomationQuestion";
 
 const AutomationPage = () => {
   return (

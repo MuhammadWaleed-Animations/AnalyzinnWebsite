@@ -1,7 +1,7 @@
 import React from 'react';
 import { Layout, Typography, Card, Row, Col } from 'antd';
-import CRM from '../Images/CRM.jpg';
-import ERP from '../Images/ERP.jpg';
+import ERP from "./Images/ERP.jpg"
+import CRM from "./Images/CRM.jpg"
 
 const { Text } = Typography;
 const { Content } = Layout;

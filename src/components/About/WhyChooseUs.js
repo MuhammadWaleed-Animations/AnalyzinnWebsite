@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col, Typography } from 'antd';
-import services from '../data/services';
+import services from './data/services';
 
 const { Title, Paragraph } = Typography;
 
