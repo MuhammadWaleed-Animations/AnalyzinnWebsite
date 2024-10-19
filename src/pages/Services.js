@@ -63,6 +63,14 @@ const array = [
     link: "/App-development",
     img: "img2.jpg",
   },
+  {
+    key: "4",
+    label: "Web Development",
+    children:
+      "Analyzinn Solutions offers cutting-edge web development services that transform ideas into dynamic, high-performance applications, delivering exceptional user experiences and fueling business growth.",
+    link: "/Web-Development",
+    img: "img4.jpg",
+  },
 ];
 
 const Services=()=>{
