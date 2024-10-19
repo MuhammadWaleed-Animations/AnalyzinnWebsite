@@ -1,8 +1,8 @@
 import React from 'react';
 import { Row, Col } from 'antd';
-import HeaderSection from '../components/Title';
-import ContentSection from '../components/ContentSection';
-import WhyChooseUs from '../components/WhyChooseUs';
+import HeaderSection from '../components/About/Title';
+import ContentSection from '../components/About/ContentSection';
+import WhyChooseUs from '../components/About/WhyChooseUs';
 import TestimonialSlider from '../components/TestimonialSlider';
 
 const MoreInfo = () => {
