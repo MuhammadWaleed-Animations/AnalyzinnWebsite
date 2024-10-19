@@ -55,6 +55,14 @@ const array = [
     link: "/Automation",
     img: "img2.jpg",
   },
+  {
+    key: "3",
+    label: "App Development",
+    children:
+      "Analyzinn Solutions delivers innovative app development solutions to transform ideas into high-performance mobile applications, enhancing user experiences and driving business growth.",
+    link: "/App-development",
+    img: "img2.jpg",
+  },
 ];
 
 const Services=()=>{

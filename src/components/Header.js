@@ -55,6 +55,9 @@ export default function Navbar() {
             <a href="/Automation">
               <Menu.Item key="2-3">Automation & Integration</Menu.Item>
             </a>
+            <a href="/App-development">
+              <Menu.Item key="2-4">App Development</Menu.Item>
+            </a>
           </SubMenu>
         </Menu.Item>
 
