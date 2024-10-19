@@ -7,8 +7,9 @@ import Footer from "./components/footer/footer";
 import Automation from "./pages/Automation";
 import BussinessAnalytics from "./pages/BussinessAnalytics";
 import MarketingTabs from "./components/DigitalMarketing";
-import Contact from "./pages/contact/contact"
-import AppDev from "./pages/AppDev"
+import Contact from "./pages/contact/contact";
+import AppDev from "./pages/AppDev";
+import WebDevPage from "./components/WebDev/WebDev";
 
 export default function Routing() {
   return (
@@ -19,11 +20,12 @@ export default function Routing() {
 
         <Route path="/services" element={<Services />} />
         <Route path="/Automation" element={<Automation />} />
-        <Route path="/App-development" element = {<AppDev />} />
-        
-        { <Route path="/about" element={<About />} /> }
+        <Route path="/App-development" element={<AppDev />} />
+
+        {<Route path="/about" element={<About />} />}
         <Route path="/DigitalMarketing" element={<MarketingTabs />} />
-        <Route path="/Bussiness-analytics" element={<BussinessAnalytics/>}/>
+        <Route path="/Web-Development" element={<WebDevPage />} />
+        <Route path="/Bussiness-analytics" element={<BussinessAnalytics />} />
         <Route path="/about" element={<About />} />
 
         <Route path="/contact" element={<Contact />} />

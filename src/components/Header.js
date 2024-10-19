@@ -29,7 +29,7 @@ export default function Navbar() {
       <Menu
         theme="dark"
         mode="horizontal"
-        defaultSelectedKeys={["1"]}
+        defaultSelectedKeys={[""]}
         style={{ marginLeft: "auto", backgroundColor: "white" }}
       >
         <Menu.Item
@@ -57,6 +57,9 @@ export default function Navbar() {
             </a>
             <a href="/App-development">
               <Menu.Item key="2-4">App Development</Menu.Item>
+            </a>
+            <a href="/Web-Development">
+              <Menu.Item key="2-5">Web Development</Menu.Item>
             </a>
           </SubMenu>
         </Menu.Item>
