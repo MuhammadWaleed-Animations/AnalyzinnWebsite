@@ -1,0 +1,181 @@
+.webdev-header {
+  margin-top: 40px;
+  padding: 20px;
+  border: 1px solid #d9d9d9;
+  background-color: #003399;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.webdev-header h1 {
+  font-size: 2rem;
+  padding-top: 40px;
+  color: #ffffff;
+}
+
+.webdev-header h2 {
+  font-size: 2.5rem;
+  margin: 0 0 20px;
+  color: #ffffff;
+}
+
+.webdev-header p {
+  font-size: 1.2rem;
+  margin: 0 0 20px;
+  color: #ffffff;
+  max-width: 800px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.consultation-button {
+  margin-top: 20px;
+  background-color: #1890ff;
+  color: white;
+  border: none;
+  padding: 15px 24px;
+  border-radius: 4px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.consultation-button:hover {
+  background-color: #005bb5;
+}
+
+.tabs-container {
+  padding: 40px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.tabs-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 70px;
+  padding: 5%;
+}
+
+.tab-pane {
+  flex: 1 1 calc(25% - 10px);
+  border: 1px solid #000000;
+  border-radius: 8px;
+  background-color: #002570;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  justify-content: center;
+}
+
+.tab-pane:hover {
+  transform: translateY(-10px);
+}
+
+.tab-content {
+  text-align: left;
+  margin-top: auto;
+  position: relative;
+  width: 100%;
+  background-color: #002570;
+  height: 170px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.tab-content h3 {
+  font-size: 1.9rem;
+  margin-bottom: px;
+  color: #ffffff;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.tab-content p {
+  font-size: 1.1rem;
+  line-height: 1.4;
+  color: #ffffff;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.tab-pane img {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.additional-section {
+  background-color: #f7f7f7;
+  color: rgb(0, 0, 0);
+  padding: 40px;
+  margin-top: 40px;
+  border-radius: 8px;
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.additional-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.additional-section p {
+  font-size: 1.2em;
+  margin: 20px 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.additional-section ul {
+  list-style-type: none;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.additional-section ul li {
+  font-size: 1.2em;
+  margin: 5px 0;
+  position: relative;
+}
+
+.new-section {
+  background-color: #f7f7f7;
+  color: rgb(0, 0, 0);
+  padding: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.new-section h2 {
+  font-size: 5em;
+  margin-bottom: 20px;
+}
+
+.italic-text {
+  font-style: italic;
+  margin-bottom: 20px;
+  font-size: 1.3em;
+}
+
+.new-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.new-section ul li {
+  font-size: 1.3em;
+  margin: 10px 0;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .tab-pane {
+    flex: 1 1 100%;
+  }
+}
