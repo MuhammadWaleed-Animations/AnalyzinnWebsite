@@ -61,6 +61,9 @@ export default function Navbar() {
             <a href="/Web-Development">
               <Menu.Item key="2-5">Web Development</Menu.Item>
             </a>
+            <a href="/Ai-Ml">
+              <Menu.Item key="2-5">Ai&ML</Menu.Item>
+            </a>
           </SubMenu>
         </Menu.Item>
 
