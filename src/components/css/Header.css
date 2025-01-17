@@ -1,79 +1,93 @@
+/* Body background with dark navy theme */
+body {
+  background-color: #fff;
+  color: #e6e6e6;
+  margin: 0;
+  font-family: 'Times New Roman', serif;
+}
+
+
+/* Header/navbar styling */
 .Header {
   display: flex;
   align-items: center;
   width: 100%;
-  padding: 45px 100px;
+  padding: 20px 40px;
   position: fixed;
   top: 0;
   z-index: 1000;
-  background-color: #fff;
+  background: #fff;
+  /* Dark navy background for the navbar */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  /* Stronger shadow for a more elevated look */
 }
 
 .Header img {
   margin-right: auto;
+  cursor: pointer;
 }
 
-.Header .ant-menu {
-  margin-left: auto;
-  background-color: rgba(0, 0, 0, 0) !important;
+/* Ant Design Menu */
+.ant-menu {
+  border-radius: 10px !important;
+  font-size: 1rem !important;
 }
 
-.ant-menu-dark.ant-menu-horizontal {
-  border-bottom: none;
-  background-color: rgba(0, 0, 0, 0) !important;
+.ant-menu-horizontal {
+  background: transparent !important;
+  border-bottom: none !important;
 }
 
-.ant-menu-dark .ant-menu-item-selected {
-  background-color: rgba(255, 255, 255, 0.3) !important;
-  color: #003399 !important;
-  font-weight: bold;
-  font-size: 1.4em;
-}
-
-.ant-menu-dark .ant-menu-item {
-  color: #0066cc !important;
+.menu-item {
+  color: #0520a5 !important;
+  font-weight: 600;
+  text-transform: uppercase;
   transition: all 0.3s ease;
-  font-size: 1.3em;
 }
 
-.ant-menu-dark .ant-menu-item:hover,
-.ant-menu-dark .ant-menu-item-active {
-  color: #0275e9 !important;
-  font-weight: bold;
-  background-color: rgba(255, 255, 255, 0.2) !important;
-  font-size: 1.2em;
+/* Menu item hover and active state */
+.menu-item:hover,
+.ant-menu-item-active {
+  color: #1130cb !important;
+  /* Light purple color on hover */
+  background: rgba(0, 31, 61, 0.1) !important;
+  /* Navy blue with slight transparency on hover */
+  transform: scale(1.05);
 }
 
+/* Submenu title styling */
 .ant-menu-submenu-title {
-  color: #0066cc !important;
-  background-color: rgba(0, 0, 0, 0) !important;
+  color: #0520a5 !important;
+  /* White color for submenu titles */
+  font-weight: bold;
+  text-transform: uppercase;
   transition: all 0.3s ease;
 }
 
+/* Submenu title hover effect */
+.ant-menu-submenu-title:hover {
+  color: #1130cb !important;
+  /* Light purple on hover for submenu title */
+}
+
+/* Submenu dropdown background */
 .ant-menu-submenu-popup {
-  background-color: rgba(255, 255, 255, 0.9) !important;
+  background: linear-gradient(45deg, #1e1e2f, #1130cb) !important;
+  /* Gradient from dark navy to light purple */
+  border-radius: 8px;
 }
 
-.ant-menu-sub {
-  background-color: rgba(255, 255, 255, 0.9) !important;
-}
-
+/* Submenu item styling */
 .ant-menu-sub .ant-menu-item {
-  color: #0066cc !important;
-  transition: all 0.3s ease;
+  color: #ffffff !important;
+  /* White color for submenu items */
+  font-weight: 500;
 }
 
-.ant-menu-sub .ant-menu-item:hover,
-.ant-menu-sub .ant-menu-item-active {
-  color: #025eb9 !important;
-  font-weight: bold;
-  background-color: rgba(255, 255, 255, 0.2) !important;
-  font-size: 1em;
-}
-
-.ant-menu-sub .ant-menu-item-selected {
-  color: #003399 !important;
-  font-weight: bold;
-  background-color: rgba(255, 255, 255, 0.3) !important;
-  font-size: 1.2em;
+/* Submenu item hover effect */
+.ant-menu-sub .ant-menu-item:hover {
+  color: #4e41a4 !important;
+  /* Light purple hover for submenu items */
+  background: rgba(0, 31, 61, 0.1) !important;
+  /* Navy blue background with transparency on hover */
 }

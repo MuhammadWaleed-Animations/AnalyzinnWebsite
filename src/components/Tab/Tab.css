@@ -3,17 +3,27 @@
     text-align: center;
     padding: 20px;
     margin-top: 3%;
+    background: linear-gradient(135deg, #000080, #000000);
+    /* Navy blue to black gradient */
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    /* White text */
 }
 
 .tab-container h1 {
     font-size: 50px;
-    font-weight: 600;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #ffffff;
+    /* White heading text */
 }
 
 .tab-container p {
     font-size: 20px;
     font-weight: 600;
-    color: #333; /* Fixed color */
+    color: #ffffff;
+    /* White text */
     margin-left: 2%;
     margin-top: 1%;
 }
@@ -28,77 +38,121 @@
 /* Tab content wrapper */
 .tab-content-wrapper {
     display: flex;
-    flex-direction: row; /* Ensure the image and text are side by side */
-    align-items: center; /* Center items vertically */
-    gap: 20px; /* Space between image and text */
-    background-color: #ffffff; /* Background color for content wrapper */
-    border-radius: 8px; /* Rounded corners for content wrapper */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for content wrapper */
-    padding: 20px; /* Padding inside content wrapper */
-    margin: 20px auto !important; /* Margin around content wrapper */
-    text-align: left; /* Align text left */
+    flex-direction: row;
+    /* Ensure the image and text are side by side */
+    align-items: center;
+    /* Center items vertically */
+    gap: 20px;
+    /* Space between image and text */
+    background-color: #ffffff;
+    /* Background color for content wrapper */
+    border-radius: 8px;
+    /* Rounded corners for content wrapper */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    /* Updated darker box shadow */
+    padding: 20px;
+    /* Padding inside content wrapper */
+    margin: 20px auto !important;
+    /* Margin around content wrapper */
+    text-align: left;
+    /* Align text left */
     width: 80%;
 }
 
 /* Image styling */
 .tab-content-wrapper img {
-    width: 400px; /* Set consistent width */
-    height: 200px; /* Set consistent height */
-    object-fit: cover; /* Ensure image covers area without distortion */
-    flex-shrink: 0; /* Prevent image from shrinking */
-    /*border-radius: 8px; /* Rounded corners for image */
-   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for image */
+    width: 400px;
+    /* Set consistent width */
+    height: 200px;
+    /* Set consistent height */
+    object-fit: cover;
+    /* Ensure image covers area without distortion */
+    flex-shrink: 0;
+    /* Prevent image from shrinking */
 }
 
 /* Text content styling */
 .tab-content {
-    color: #333;
+    color: #000080;
+    /* Navy blue text */
     padding: 16px;
     background-color: #ffffff;
-    border-radius: 8px; /* Rounded corners for text content */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for text content */
-    max-width: 100%; /* Adjust based on your layout */
-    line-height: 1.5; /* Improved readability */
-    font-size: 18px !important; /* Slightly smaller font size for professional look */
-    font-family: Arial, sans-serif; /* Professional font */
+    border-radius: 8px;
+    /* Rounded corners for text content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    /* Updated darker box shadow */
+    max-width: 100%;
+    /* Adjust based on your layout */
+    line-height: 1.5;
+    /* Improved readability */
+    font-size: 18px !important;
+    /* Slightly smaller font size for professional look */
+    font-family: Arial, sans-serif;
+    /* Professional font */
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Ensure the button stays at the bottom */
-    height: 100%; /* Make the text content take full height */
+    justify-content: space-between;
+    /* Ensure the button stays at the bottom */
+    height: 100%;
+    /* Make the text content take full height */
 }
 
 /* Button container */
 .button-container {
-    margin-top: 20px; /* Space above the button */
+    margin-top: 20px;
+    /* Space above the button */
 }
 
 /* Button styling */
 .gradient-button {
-    background: linear-gradient(45deg, #333333, #000000); /* Black gradient background */
-    color: white; /* Text color */
-    border: none; /* Remove default border */
-    padding: 12px 24px; /* Padding */
-    font-size: 14px; /* Font size */
-    font-weight: bold; /* Font weight */
-    border-radius: 8px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
-    transition: background 0.3s ease, transform 0.3s ease; /* Smooth transition */
-    outline: none; /* Remove default focus outline */
-    text-transform: uppercase; /* Uppercase text */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for button */
-    width: 100%; /* Ensure button width matches the content */
+    background: linear-gradient(135deg, #000080, #000000);
+    /* Navy blue to black gradient */
+    color: #ffffff;
+    /* White text */
+    border: none;
+    padding: 12px 24px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+    outline: none;
+    text-transform: uppercase;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    /* Updated darker box shadow */
+    width: 100%;
+    /* Ensure button width matches the content */
 }
 
 .gradient-button:hover {
-    background: linear-gradient(45deg, #000000, #333333); /* Reverse gradient on hover */
-    transform: scale(1.05); /* Slightly enlarge on hover */
+    background: linear-gradient(135deg, #001F3F, #000000);
+    /* Slightly darker navy blue gradient on hover */
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    /* Slightly darker shadow on hover */
 }
 
 .gradient-button:focus {
-    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.5); /* Focus outline with shadow */
+    box-shadow: 0 0 0 3px rgba(0, 0, 128, 0.5) !important;
+    /* Focus outline with navy blue shadow */
 }
 
 .gradient-button:active {
-    background: linear-gradient(45deg, #000000, #333333); /* Same gradient on active state */
-    transform: scale(0.95); /* Slightly shrink on click */
+    background: linear-gradient(135deg, #001F3F, #000000) !important;
+    /* Same gradient on active state */
+    transform: scale(0.95);
+    /* Slightly shrink on click */
+}
+
+.tab-label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff !important;
+    /* White text for tab labels */
+}
+
+/* Updated darker shade for tabs */
+.custom-tabs {
+    background: linear-gradient(135deg, #000080, #000000);
+    /* Navy blue to black gradient */
 }

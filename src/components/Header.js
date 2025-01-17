@@ -21,7 +21,7 @@ export default function Navbar() {
         src={logo}
         alt="Logo"
         style={{
-          height: "220px",
+          height: "170px", // Increased size of the logo
         }}
         preview={false}
       />
@@ -30,47 +30,45 @@ export default function Navbar() {
         theme="dark"
         mode="horizontal"
         defaultSelectedKeys={[""]}
-        style={{ marginLeft: "auto", backgroundColor: "white" }}
+        style={{
+          marginLeft: "auto",
+          background: "linear-gradient(45deg, #6a11cb, #a084ca)", // Updated second color to light purple
+          borderRadius: "10px",
+          padding: "10px 20px",
+        }}
       >
         <Menu.Item
           key="1"
           icon={<HomeOutlined />}
-          style={{ width: "125px", textAlign: "center" }}
+          className="menu-item"
           onClick={() => navigate("/")}
         >
           Home
         </Menu.Item>
-        <Menu.Item
-          key="2"
-          style={{ width: "125px", textAlign: "center" }}
-          onClick={() => navigate("/services")}
-        >
+        <Menu.Item key="2" className="menu-item">
           <SubMenu icon={<BarChartOutlined />} title="Services">
-            <a href="/Bussiness-analytics">
-              <Menu.Item key="2-1">Business Analytics</Menu.Item>
-            </a>
-            <a href="/DigitalMarketing">
-              <Menu.Item key="2-2">Digital Marketing & Analytics</Menu.Item>
-            </a>
-            <a href="/Automation">
-              <Menu.Item key="2-3">Automation & Integration</Menu.Item>
-            </a>
-            <a href="/App-development">
-              <Menu.Item key="2-4">App Development</Menu.Item>
-            </a>
-            <a href="/Web-Development">
-              <Menu.Item key="2-5">Web Development</Menu.Item>
-            </a>
-            <a href="/Ai-Ml">
-              <Menu.Item key="2-5">Ai&ML</Menu.Item>
-            </a>
+            <Menu.Item key="2-1" onClick={() => navigate("/Bussiness-analytics")}>
+              Business Analytics
+            </Menu.Item>
+            <Menu.Item key="2-2" onClick={() => navigate("/DigitalMarketing")}>
+              Digital Marketing & Analytics
+            </Menu.Item>
+            <Menu.Item key="2-3" onClick={() => navigate("/Automation")}>
+              Automation & Integration
+            </Menu.Item>
+            <Menu.Item key="2-4" onClick={() => navigate("/App-development")}>
+              App Development
+            </Menu.Item>
+            <Menu.Item key="2-5" onClick={() => navigate("/Web-Development")}>
+              Web Development
+            </Menu.Item>
           </SubMenu>
         </Menu.Item>
 
         <Menu.Item
           key="3"
           icon={<InfoCircleOutlined />}
-          style={{ width: "125px", textAlign: "center" }}
+          className="menu-item"
           onClick={() => navigate("/about")}
         >
           About
@@ -78,7 +76,7 @@ export default function Navbar() {
         <Menu.Item
           key="4"
           icon={<PhoneOutlined />}
-          style={{ width: "125px", textAlign: "center" }}
+          className="menu-item"
           onClick={() => navigate("/contact")}
         >
           Contact

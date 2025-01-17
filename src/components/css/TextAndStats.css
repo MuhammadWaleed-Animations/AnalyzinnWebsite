@@ -1,38 +1,96 @@
-.text-container{
+.text-container_Text {
     width: 90%;
     margin: 4% auto;
-    border-radius: 10px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #0a0a23, #001f3f);
+    /* Dark navy gradient */
+    padding: 20px 40px;
+    color: #ffffff;
+    /* White text for contrast */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    /* Enhanced shadow for depth */
 }
 
-.stats-container{
-    border-radius: 10px;
+.text-content_Text {
+    padding: 20px;
+    text-align: center;
 }
 
-.gradient-btn{
-    background: linear-gradient(45deg, #333333, #000000); /* Black gradient background */
-    color: white; /* Text color */
-    border: none; /* Remove default border */
-    padding: 22px 26px; /* Padding */
-    font-size: 14px; /* Font size */
-    font-weight: bold; /* Font weight */
-    border-radius: 8px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
-    transition: background 0.3s ease, transform 0.3s ease; /* Smooth transition */
-    outline: none; /* Remove default focus outline */
-    text-transform: uppercase; /* Uppercase text */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for button */
+.text-title_Text {
+    font-size: 2em;
+    color: #fff !important;
+    /* Bright blue for headings */
 }
 
-.gradient-btn:hover {
-    background: linear-gradient(45deg, #000000, #333333); 
-    transform: scale(1.05); /* Slightly enlarge on hover */
+.text-paragraph_Text {
+    font-size: 1.1em;
+    color: #b0c0ff;
+    /* Subtle light blue for paragraphs */
 }
 
-.gradient-btn:focus {
-    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.5); /* Focus outline with shadow */
+.stats-container_Text {
+    border-radius: 12px;
+    background: #001a33;
+    /* Deep navy blue for the stats section */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    /* Modern shadow */
 }
 
-.gradient-btn:active {
-    background: linear-gradient(45deg, #000000, #333333); /* Same gradient on active state */
-    transform: scale(0.95); /* Slightly shrink on click */
+.stats-title_Text {
+    color: #fff !important;
+    /* Bright blue for stats title */
+    font-size: 1.8em;
+}
+
+.stats-item_Text {
+    text-align: center;
+}
+
+.stats-value_Text {
+    font-size: 3em;
+    color: #007bff !important;
+    /* Bright blue for numbers to stand out */
+    margin: 0;
+}
+
+.stats-description_Text {
+    font-size: 1em;
+    color: #b0c0ff !important;
+    /* White text for descriptions */
+}
+
+.gradient-btn_Text {
+    background: linear-gradient(45deg, #0a0a23, #00264d);
+    /* Dark blue gradient */
+    color: #ffffff;
+    /* White text for the button */
+    border: none;
+    padding: 14px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.5);
+    /* Blue glow effect */
+}
+
+.gradient-btn_Text:hover {
+    background: linear-gradient(45deg, #00264d, #0a0a23);
+    /* Reversed gradient for hover */
+    transform: scale(1.05);
+    /* Slight enlarge */
+}
+
+.gradient-btn_Text:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(92, 119, 255, 0.5);
+    /* Focus outline */
+}
+
+.gradient-btn_Text:active {
+    transform: scale(0.95);
+    /* Press effect */
 }
