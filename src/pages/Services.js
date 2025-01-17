@@ -69,15 +69,7 @@ const array = [
     children:
       "Analyzinn Solutions offers cutting-edge web development services that transform ideas into dynamic, high-performance applications, delivering exceptional user experiences and fueling business growth.",
     link: "/Web-Development",
-    img: "img2.jpg",
-  },
-  {
-    key: "5",
-    label: "Ai & ML",
-    children:
-      "Analyzinn Solutions unlocks the power of data with AI and ML, providing valuable insights and actionable recommendations.",
-    link: "/Ai-Ml",
-    img: "img2.jpg",
+    img: "img4.jpg",
   },
 ];
 

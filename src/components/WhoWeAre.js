@@ -1,28 +1,29 @@
 import React from 'react';
-import './WhoWeAre.css'; // Ensure this CSS file is created with the styles provided below
+import './WhoWeAre.css';
 import CRM from '../Images/CRM.jpg';
-import About from '../pages/About';
 
 const WhoWeAre = () => {
   return (
-    <div className="who-we-are-section">
-      <div className="content-wrapper">
+    <section className="who-we-are-section">
+      <div className="container">
         <div className="text-content">
           <h2 className="title">Who We Are</h2>
-          <h4 className="subtitle">Consulting Firm Powered by Analytics!</h4>
+          <h4 className="subtitle">Empowering Organizations with Analytics</h4>
           <p className="description">
-            We support leaders to <strong>EVOLVE</strong> their organizations using our proven analytics consulting services.
+            At ANALYZINN, we help organizations evolve through our proven analytics and consulting expertise. From data management to digital marketing, we bring actionable insights to drive your success.
           </p>
-          <p className="details">
-            We’re a growing group of IT professionals providing businesses worldwide with solutions and services in Data Management, Reporting & Visualization, Digital Marketing, Automations & Integrations. ANALYZINN will provide you with a steady stream of actionable insights to fuel intelligent technologies; visibility to boost relevance and revenue, and accelerate innovation!
-          </p>
-          <a href={About} className="cta-button">Know More</a>
+          <ul className="features-list">
+            <li>✔ Data Management & Reporting</li>
+            <li>✔ Digital Marketing & Automation</li>
+            <li>✔ Integration & Custom Solutions</li>
+          </ul>
+          <a href="/about" className="cta-button">Learn More</a>
         </div>
         <div className="image-content">
-          <img src={CRM} alt="Consulting" className="image"/>
+          <img src={CRM} alt="Consulting" className="image" />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
