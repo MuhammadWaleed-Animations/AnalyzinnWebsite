@@ -64,7 +64,7 @@
   flex: 1 1 calc(25% - 10px);
   border: 1px solid #000000;
   border-radius: 8px;
-  background-color: #002570;
+  background-color: #3824ac;
   padding: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
@@ -80,7 +80,7 @@
   margin-top: auto;
   position: relative;
   width: 100%;
-  background-color: #002570;
+  background-color: #3824ac;
   height: 170px;
   margin-left: auto;
   margin-right: auto;

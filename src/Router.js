@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import App from "./App";
 import About from "./pages/About";
-import Services from "./pages/Services";
+//import Services from "./pages/Services"; // no longer needed
 import Topbar from "./components/Topbar";
 import Footer from "./components/footer/footer";
 import Automation from "./pages/Automation";
@@ -19,7 +19,7 @@ export default function Routing() {
       <Routes>
         <Route index path="/" element={<App />} />
 
-        <Route path="/services" element={<Services />} />
+        <Route path="/services" element={<App />} />
         <Route path="/Automation" element={<Automation />} />
         <Route path="/App-development" element={<AppDev />} />
         <Route path="/Ai-Ml" element={<AiMl />} />
