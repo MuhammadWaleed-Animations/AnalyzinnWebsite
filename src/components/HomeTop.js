@@ -6,10 +6,10 @@ const { Title, Paragraph } = Typography;
 
 function Home() {
   return (
-    <Layout className="App_Home">
-      <div className="background-image_Home"></div>
-      <Content className="Content_Home">
-        <div className="site-layout-content_Home" style={{ padding: "20px" }}>
+    <Layout className="App">
+      <div className="background-image"></div>
+      <Content className="Content">
+        <div className="site-layout-content" style={{ padding: "20px" }}>
           <Title
             level={1}
             style={{
@@ -30,7 +30,7 @@ function Home() {
               marginBottom: "50px",
               width: "55%",
               marginLeft: "22%",
-              color: "#ffffff !important",
+              color: "darkslategray",
             }}
           >
             "Data, The Goldmine of the 21st Century". Reach out to us to know

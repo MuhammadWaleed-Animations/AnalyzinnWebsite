@@ -9,6 +9,7 @@ import BussinessAnalytics from "./pages/BussinessAnalytics";
 import MarketingTabs from "./components/DigitalMarketing";
 import Contact from "./pages/contact/contact";
 import AppDev from "./pages/AppDev";
+import AiMl  from "./pages/AiMl";
 import WebDevPage from "./components/WebDev/WebDev";
 
 export default function Routing() {
@@ -21,6 +22,8 @@ export default function Routing() {
         <Route path="/services" element={<Services />} />
         <Route path="/Automation" element={<Automation />} />
         <Route path="/App-development" element={<AppDev />} />
+        <Route path="/Ai-Ml" element={<AiMl />} />
+
 
         {<Route path="/about" element={<About />} />}
         <Route path="/DigitalMarketing" element={<MarketingTabs />} />

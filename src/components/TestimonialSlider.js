@@ -1,6 +1,6 @@
 import React from 'react';
 import { Carousel, Typography, Row, Col } from 'antd';
-import './css/TestimonialSlider.css';
+import './css/TestimonialSlider.css'; 
 import testimonials from '../data/testimonials';
 
 const { Title, Text } = Typography;
@@ -27,7 +27,7 @@ const TestimonialSlider = () => {
 
   return (
     <div className="testimonial-container">
-      <Title level={2} style={{ fontFamily: 'Times New Roman, serif' }} className="testimonial-title">Testimonials</Title>
+      <Title level={2} style={{  fontFamily: 'Times New Roman, serif' }} className="testimonial-title">Testimonials</Title>
       <Carousel {...settings}>
         {testimonials.map((testimonial, index) => (
           <div key={index} className="testimonial-slide">

@@ -1,31 +1,25 @@
-.App_Home {
+.App {
   min-height: 620px;
   width: 100%;
   position: relative;
   display: flex;
   flex-direction: column;
-  background-color: #0a0a23;
-
-  /* Navy blue background */
 }
 
-.background-image_Home {
+.background-image {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #000000;
-  /* Black overlay */
-  background-image: linear-gradient(135deg, #001f3f, #0a0a23);
-  /* Navy gradient */
+  background-image: url("../../Images/gray.png");
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.9;
+  filter: blur(0px);
   z-index: 0;
 }
 
-.Content_Home {
+.Content {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -33,49 +27,27 @@
   text-align: center;
   padding-top: 20px;
   position: relative;
-  z-index: 1;
 }
 
-.site-layout-content_Home {
+.site-layout-content {
   padding: 50px;
-  border-radius: 15px;
-  background: rgba(10, 10, 35, 0.85);
-  /* Semi-transparent navy blue */
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
-  /* Strong modern shadow */
+  border-radius: 10px;
 }
 
-.site-layout-content_Home .ant-typography {
-  color: #ffffff;
-  /* White text for readability */
+.site-layout-content .ant-typography,
+.site-layout-content .ant-btn {
+  color: rgb(0, 0, 0);
 }
 
 .ant-btn-primary {
-  background-color: #00264d;
-  /* Dark navy button */
-  border-color: #004080;
-  padding: 15px 30px;
+  background-color: #000;
+  border-color: #2b2c2e;
+  padding: 24px 28px;
   font-size: 1.2em;
-  color: #ffffff;
-  font-weight: bold;
-  transition: all 0.3s ease-in-out;
 }
 
 .ant-btn-primary:hover,
 .ant-btn-primary:focus {
-  background-color: #003366;
-  /* Lighter navy on hover */
-  border-color: #00509e;
-  color: #ffffff;
-  box-shadow: 0 4px 20px rgba(0, 80, 158, 0.6);
-  /* Subtle glow effect */
-}
-
-.ant-typography-title {
-  color: #ffffff !important;
-}
-
-.ant-typography-paragraph {
-  color: #dcdcdc !important;
-  /* Slightly off-white for contrast */
+  background-color: #323536 !important;
+  border-color: #2a2f33;
 }
