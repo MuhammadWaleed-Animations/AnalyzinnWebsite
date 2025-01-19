@@ -1,7 +1,7 @@
 import React from "react";
 // import Home from "./pages/Home";
 import Tab from "./components/Tab/Tab";
-import TextAndStats from "./components/TextAndStats";
+import TextAndStats  from "./components/TextAndStats";
 import TestimonialSlider from "./components/TestimonialSlider";
 import WhatSetsUsApart from "./components/WhatSetsUsApart";
 import ContactButton from "./components/ContactButton";
@@ -42,15 +42,15 @@ const App = () => {
 
       <WhatSetsUsApart />
 
-      <TextAndStats />
-
+      <TextAndStats/>
+    
 
 
       <div>
         <Tab arr={array} />
 
-
-
+       
+       
         <div
           style={{
             minHeight: "100vh",
@@ -60,8 +60,8 @@ const App = () => {
         >
 
           <WhoWeAre />
-
-          <TestimonialSlider />
+        
+          <TestimonialSlider/>
 
 
 

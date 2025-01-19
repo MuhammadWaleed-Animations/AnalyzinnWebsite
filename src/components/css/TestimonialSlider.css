@@ -1,41 +1,29 @@
 .testimonial-container {
-  width: 90%;
-  /* Adjusted width to ensure only 3 slides are visible */
+  width: 90%; /* Adjusted width to ensure only 3 slides are visible */
   height: auto;
   margin: 5% auto;
   padding: 30px;
-  background: #001f3d !important;
-  /* Dark blue background for a modern and professional look */
-  border-radius: 8px;
-  /* Rounded corners */
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.6);
-  /* Subtle shadow for modern look */
-  overflow: hidden;
-  /* Hide overflow to ensure no extra slides are visible */
+  background: #f9f9f9; /* Soft background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.6); /* Subtle shadow for modern look */
+  overflow: hidden; /* Hide overflow to ensure no extra slides are visible */
 }
 
 .testimonial-title {
-  font-size: 40px !important;
-  /* Increase title font size */
-  color: #fff !important;
-  /* White color for the title to stand out on dark background */
+  font-size: 40px !important; /* Increase title font size */
+  color: #333; /* Darker color for better readability */
   text-align: center;
   margin-bottom: 40px !important;
 }
 
 .testimonial-slide {
-  width: calc(100% / 1 - 20px) !important;
-  /* Calculate width to ensure only 3 slides are visible */
-  padding: 10px;
-  /* Reduced padding for a more compact look */
-  text-align: left;
-  /* Align text to the left for a modern feel */
-  margin-right: 30px !important;
-  /* Increased margin between slides */
+  width: calc(100% / 1 - 20px) !important; /* Calculate width to ensure only 3 slides are visible */
+  padding: 10px; /* Reduced padding for a more compact look */
+  text-align: left; /* Align text to the left for a modern feel */
+  margin-right: 30px !important; /* Increased margin between slides */
   box-shadow: 4px 0px 6px rgba(0, 0, 0, 0.2),
-    -3px 0px 6px rgba(0, 0, 0, 0.1);
+             -3px 0px 6px rgba(0, 0, 0, 0.1);
   background-color: #fff;
-  /* White background for individual slides */
   border-radius: 8px;
   height: 400px;
   margin-left: 8px;
@@ -43,61 +31,44 @@
 }
 
 .testimonial-image {
-  width: 100px;
-  /* Adjusted image size */
+  width: 100px; /* Adjusted image size */
   height: 100px;
-  border-radius: 50%;
-  /* Circular image */
-  object-fit: cover;
-  /* Ensure the image is not distorted */
-  margin: 4% auto;
-  /* Center the image within the column */
+  border-radius: 50%; /* Circular image */
+  object-fit: cover; /* Ensure the image is not distorted */
+  margin: 4% auto; /* Center the image within the column */
   display: block;
   margin-bottom: 15px;
 }
 
 .testimonial-quote {
-  font-size: 16px;
-  /* Adjusted quote font size */
-  line-height: 1.5;
-  /* Increased line-height for better readability */
-  color: #444;
-  /* Dark grey color for the quote to maintain a sleek, modern feel */
+  font-size: 16px; /* Adjusted quote font size */
+  line-height: 1.5; /* Increased line-height for better readability */
+  color: #555; /* Softer color for the quote */
   margin-bottom: 10px;
   text-align: left;
 }
 
 .testimonial-name {
-  font-size: 18px;
-  /* Adjusted name font size */
-  font-weight: bold;
-  /* Make the name bold */
-  color: #000;
-  /* Black color for the name */
+  font-size: 18px; /* Adjusted name font size */
+  font-weight: bold; /* Make the name bold */
+  color: #000; /* Darker color for the name */
   margin-left: 30%;
 }
 
 .testimonial-position {
-  font-size: 16px;
-  /* Adjusted position font size */
-  color: #888;
-  /* Softer grey color for the position text */
+  font-size: 16px; /* Adjusted position font size */
+  color: #888; /* Softer color for the position text */
   margin-left: 30%;
 }
 
 /* Responsive design for mobile screens */
 @media (max-width: 768px) {
   .testimonial-container {
-    width: 100%;
-    /* Full width for mobile */
-    background: #001f3d;
-    /* Keep the dark blue background on mobile */
+    width: 100%; /* Full width for mobile */
   }
-
+  
   .testimonial-slide {
-    width: 100% !important;
-    /* Full width for mobile */
-    margin-right: 0;
-    /* Remove margin between slides */
+    width: 100% !important; /* Full width for mobile */
+    margin-right: 0; /* Remove margin between slides */
   }
 }
