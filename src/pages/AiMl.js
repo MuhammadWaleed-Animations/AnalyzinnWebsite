@@ -2,6 +2,8 @@ import React from 'react'
 import AiTitle from '../components/Ai/Title'
 import AiServices from '../components/Ai/OurAiMlServices'
 import ImgText from "../components/BAnalytics/imgText/imgText";
+import WhyOurServices from "../components/Ai/WhyOurServices/WhyOurServices"; //./WhyOurServices/WhyOurServices.js";
+
 
 function AiMl() {
   return (
@@ -16,6 +18,8 @@ function AiMl() {
             image="Artificial-intelligence.jpg" 
         />
         <AiServices/>
+
+        <WhyOurServices />
     </div>
   )
 }

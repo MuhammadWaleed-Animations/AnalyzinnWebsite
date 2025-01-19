@@ -6,9 +6,8 @@ import PM from "./images/predictive-analytics.jpg";
 import DA from "./images/data_analyst.jpg";
 import ML from "./images/machine-learning.jpg";
 import CV from "./images/cv.webp"
-import { Typography, Row, Col, Button } from "antd";
-
-const { Title, Text } = Typography;
+//import { Typography} from "antd";
+//const { Title, Text } = Typography;
 
 
 const OurAiMlServices = () => {
@@ -47,9 +46,9 @@ const OurAiMlServices = () => {
               description: 'Unleash the power of your data with AI-driven insights. Discover hidden patterns, trends, and anomalies to make informed decisions.',
             },
           ].map((tab, index) => (
-            <div className="tab-pane" key={index}>
+            <div className="tab-pane"  key={index}>
               <img src={tab.img} alt={tab.title} />
-              <div className="tab-content">
+              <div className="tab-content" >
                 <h3>{tab.title}</h3>
                 <p>{tab.description}</p>
               </div>
